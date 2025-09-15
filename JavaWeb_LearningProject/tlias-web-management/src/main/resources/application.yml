@@ -1,0 +1,14 @@
+# 配置数据库的连接信息
+spring:
+  application:
+    name: tlias-web-management
+
+    datasource:
+      url: jdbc:mysql://localhost:3306/tlias
+      username: root
+      password: LxcFightForLove0517
+
+  # MyBatis的相关配置
+  mybatis:
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

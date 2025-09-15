@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表数据</title>
+    <style>
+        /*定义css，美化表格*/
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            font-size: 14px;
+        }
+        tr {
+            height: 40px;
+        }
+        th,td{
+            border: 1px solid #ccc;
+        }
+        thead{
+            background-color: #e8e8e8;
+        }
+        h1{
+            text-align: center;
+            font-family: 楷体;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>用户列表数据</h1>
+        <!--定义一个表格,包括6列,分别是: ID, 用户名, 密码, 姓名, 年龄, 更新时间-->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>用户名</th>
+                    <th>密码</th>
+                    <th>姓名</th>
+                    <th>年龄</th>
+                    <th>更新时间</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="user in userList">
+                    <td>{{user.id}}</td>
+                    <td>{{user.username}}</td>
+                    <td>{{user.password}}</td>
+                    <td>{{user.name}}</td>
+                    <td>{{user.age}}</td>
+                    <td>{{user.updateTime}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--引入axios-->
+    <script src="js/axios.min.js"></script>
+    <script type="module">
+        import { createApp } from './js/vue.esm-browser.js'
+        createApp({
+            data() {
+                return {
+                    userList: []
+                }
+            },
+            methods: {
+                async search(){
+                    const result = await axios.get('/list');
+                    this.userList = result.data;
+                }
+            },
+            mounted() {
+                this.search();
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>

@@ -8,5 +8,14 @@
 
 Written on 2025.07.06.
 
+---
+
 I lack time, but I need calmness even more.
+
 Written on 2025.09.04.
+
+---
+
+进度仍然有点慢，但是不能着急！一定要沉住气，踏踏实实的把技术吃透。预计至本月底完结SSM技术的初步学习，并于本月下旬启动苍穹外卖项目的构写。
+
+Written on 2025.09.15.
