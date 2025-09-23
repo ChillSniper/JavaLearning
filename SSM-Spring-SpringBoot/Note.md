@@ -122,3 +122,64 @@ public void setNumber(int number) {
 >这部分内容不知道在搞什么鬼
 
 没啥用，在项目中很少使用
+
+> 听的还是稀里糊涂的，我仍然没搞懂这个框架究竟在做什么，发挥着什么用途
+
+### 加载properties文件
+
+![alt text](image-3.png)
+
+这个不知道什么鬼，根本听不懂
+
+#### 容器
+
+不care那些闹心的事，不care！
+
+BeanFactory创建完毕之后，所有的bean都是延迟加载
+
+### 核心容器总结
+
+![alt text](image-5.png)
+
+关于**依赖注入**相关
+
+![alt text](image-6.png)
+
+### 注解开发
+
+Spring2.5 注解开发定义bean
+Spring3.0 纯注解开发
+
+但是这个注解开发定义还是要写配置文件，非常的麻烦
+
+由此，我们引入**纯注解开发**！！！
+
+### 纯注解开发
+
+Spring3.0引入
+用Java类代替配置文件
+
+```java
+@Configuration
+@ComponentScan("com.itheima")
+public class SpringConfig {
+
+}
+```
+
+上面这段代码直接代替了Spring的核心配置文件
+
+@Configuration注解用于设定当前类为配置类
+@ComponentScan注解用于设定扫描路径，这个注解只能添加一次，多个数据的话，得用数组形式
+
+### bean管理
+
+关于bean作用范围和bean生命周期
+
+### 依赖注入
+
+使用**注解**的形式作**依赖注入**
+
+```java
+
+```

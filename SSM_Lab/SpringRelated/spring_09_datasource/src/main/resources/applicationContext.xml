@@ -26,6 +26,7 @@
 
 <!--    1.开启context命名空间-->
 <!--    2.使用context空间加载properties文件-->
+    <context:property-placeholder location = "jdbc.properties"/>
 <!--    <context:property-placeholder location="jdbc.properties" system-properties-mode="NEVER"/>-->
 <!--    <context:property-placeholder location="jdbc.properties,jdbc2.properties" system-properties-mode="NEVER"/>-->
 <!--    classpath:*.properties  ：   设置加载当前工程类路径中的所有properties文件-->

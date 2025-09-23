@@ -12,8 +12,8 @@ public class App {
         //2.从文件系统下加载配置文件
 //        ApplicationContext ctx = new FileSystemXmlApplicationContext("D:\\workspace\\spring\\spring_10_container\\src\\main\\resources\\applicationContext.xml");
 //        BookDao bookDao = (BookDao) ctx.getBean("bookDao");
-//        BookDao bookDao = ctx.getBean("bookDao",BookDao.class);
+        BookDao bookDao = ctx.getBean("bookDao",BookDao.class);
 //        BookDao bookDao = ctx.getBean(BookDao.class);
-//        bookDao.save();
+        bookDao.save();
     }
 }

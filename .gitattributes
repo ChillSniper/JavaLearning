@@ -1,0 +1,13 @@
+# =========================
+# 忽略 node_modules 和前端产物
+node_modules/* linguist-vendored
+dist/* linguist-vendored
+build/* linguist-vendored
+*.min.js linguist-vendored
+*.bundle.js linguist-vendored
+
+# 忽略 JSON 配置文件（GitHub 可能会把 JSON 算到 JavaScript）
+*.json linguist-vendored
+
+# 明确指定 Java 代码参与统计
+*.java linguist-detectable=true

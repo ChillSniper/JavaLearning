@@ -9,6 +9,21 @@
         <option value="$PROJECT_DIR$/spring_08_di_collection/pom.xml" />
         <option value="$PROJECT_DIR$/spring_09_datasource/pom.xml" />
         <option value="$PROJECT_DIR$/spring_10_container/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_11_annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_12_annotation_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_13_annotation_di/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_14_annotation_third_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_15_spring_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_16_spring_junit/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_17_aop_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_18_aop_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_19_aop_pointcut/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_20_aop_advice_type/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_21_case_interface_run_speed/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_22_aop_advice_data/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_23_case_handle_password/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_24_case_transfer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_25_case_transfer_log/pom.xml" />
       </list>
     </option>
   </component>

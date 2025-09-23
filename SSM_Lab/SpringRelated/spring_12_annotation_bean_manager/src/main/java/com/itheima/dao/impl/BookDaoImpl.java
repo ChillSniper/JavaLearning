@@ -4,12 +4,14 @@ import com.itheima.dao.BookDao;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+
 
 @Repository
 //@Scope设置bean的作用范围
 @Scope("singleton")
+//@Scope("prototype")
 public class BookDaoImpl implements BookDao {
 
     public void save() {

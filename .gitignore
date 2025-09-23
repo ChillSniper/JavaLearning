@@ -1,0 +1,28 @@
+# =========================
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Logs
+*.log
+
+# OS 文件
+.DS_Store
+Thumbs.db
+
+# Node / 前端依赖
+node_modules/
+
+# 前端打包产物
+dist/
+build/
+*.min.js
+*.bundle.js
