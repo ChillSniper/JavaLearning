@@ -1,8 +1,8 @@
-**/src/main/resources/static/js/* linguist-vendored
+JavaWeb_LearningProject/**/src/main/resources/static/js/** linguist-vendored
 
-node_modules/* linguist-vendored
-dist/* linguist-vendored
-build/* linguist-vendored
+**/node_modules/** linguist-vendored
+**/dist/** linguist-vendored
+**/build/** linguist-vendored
 *.min.js linguist-vendored
 *.bundle.js linguist-vendored
 

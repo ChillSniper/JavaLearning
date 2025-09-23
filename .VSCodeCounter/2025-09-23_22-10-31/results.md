@@ -1,0 +1,43 @@
+# Summary
+
+Date : 2025-09-23 22:10:31
+
+Directory d:\\ComputerScienceLearning\\JavaLearningForWork\\JavaWeb_LearningProject\\SpringBootWeb01
+
+Total : 8 files,  16550 codes, 301 comments, 149 blanks, all 17000 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| JavaScript | 1 | 16,322 | 297 | 123 | 16,742 |
+| XML | 1 | 81 | 0 | 4 | 85 |
+| HTML | 1 | 78 | 2 | 1 | 81 |
+| Java | 4 | 68 | 2 | 20 | 90 |
+| Java Properties | 1 | 1 | 0 | 1 | 2 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 8 | 16,550 | 301 | 149 | 17,000 |
+| . (Files) | 1 | 81 | 0 | 4 | 85 |
+| src | 7 | 16,469 | 301 | 145 | 16,915 |
+| src\\main | 6 | 16,460 | 301 | 140 | 16,901 |
+| src\\main\\java | 3 | 59 | 2 | 15 | 76 |
+| src\\main\\java\\com | 3 | 59 | 2 | 15 | 76 |
+| src\\main\\java\\com\\itheima | 3 | 59 | 2 | 15 | 76 |
+| src\\main\\java\\com\\itheima (Files) | 1 | 9 | 0 | 5 | 14 |
+| src\\main\\java\\com\\itheima\\controller | 1 | 34 | 2 | 6 | 42 |
+| src\\main\\java\\com\\itheima\\pojo | 1 | 16 | 0 | 4 | 20 |
+| src\\main\\resources | 3 | 16,401 | 299 | 125 | 16,825 |
+| src\\main\\resources (Files) | 1 | 1 | 0 | 1 | 2 |
+| src\\main\\resources\\static | 2 | 16,400 | 299 | 124 | 16,823 |
+| src\\main\\resources\\static (Files) | 1 | 78 | 2 | 1 | 81 |
+| src\\main\\resources\\static\\js | 1 | 16,322 | 297 | 123 | 16,742 |
+| src\\test | 1 | 9 | 0 | 5 | 14 |
+| src\\test\\java | 1 | 9 | 0 | 5 | 14 |
+| src\\test\\java\\com | 1 | 9 | 0 | 5 | 14 |
+| src\\test\\java\\com\\itheima | 1 | 9 | 0 | 5 | 14 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
