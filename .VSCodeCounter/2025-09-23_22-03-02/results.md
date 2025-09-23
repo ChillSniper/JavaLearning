@@ -1,0 +1,26 @@
+# Summary
+
+Date : 2025-09-23 22:03:02
+
+Directory d:\\ComputerScienceLearning\\JavaLearningForWork\\JavaWeb_LearningProject\\SpringBootWeb01\\src\\main\\java
+
+Total : 3 files,  59 codes, 2 comments, 15 blanks, all 76 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Java | 3 | 59 | 2 | 15 | 76 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 3 | 59 | 2 | 15 | 76 |
+| com | 3 | 59 | 2 | 15 | 76 |
+| com\\itheima | 3 | 59 | 2 | 15 | 76 |
+| com\\itheima (Files) | 1 | 9 | 0 | 5 | 14 |
+| com\\itheima\\controller | 1 | 34 | 2 | 6 | 42 |
+| com\\itheima\\pojo | 1 | 16 | 0 | 4 | 20 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

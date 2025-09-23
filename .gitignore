@@ -1,10 +1,7 @@
-# =========================
-# Maven
+# Java / Maven / Gradle
 target/
-
-# Gradle
-.gradle/
 build/
+.gradle/
 
 # IntelliJ IDEA
 .idea/
@@ -18,10 +15,8 @@ out/
 .DS_Store
 Thumbs.db
 
-# Node / 前端依赖
+# Node / 前端依赖（如果有前端工程）
 node_modules/
-
-# 前端打包产物
 dist/
 build/
 *.min.js

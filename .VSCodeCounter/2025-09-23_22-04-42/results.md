@@ -1,0 +1,46 @@
+# Summary
+
+Date : 2025-09-23 22:04:42
+
+Directory d:\\ComputerScienceLearning\\JavaLearningForWork\\JavaWeb_LearningProject\\SpringBootWeb02\\src
+
+Total : 12 files,  16552 codes, 314 comments, 177 blanks, all 17043 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| JavaScript | 1 | 16,322 | 297 | 123 | 16,742 |
+| Java | 9 | 151 | 15 | 52 | 218 |
+| HTML | 1 | 78 | 2 | 1 | 81 |
+| Java Properties | 1 | 1 | 0 | 1 | 2 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 12 | 16,552 | 314 | 177 | 17,043 |
+| main | 11 | 16,543 | 314 | 172 | 17,029 |
+| main\\java | 8 | 142 | 15 | 47 | 204 |
+| main\\java\\com | 8 | 142 | 15 | 47 | 204 |
+| main\\java\\com\\itheima | 8 | 142 | 15 | 47 | 204 |
+| main\\java\\com\\itheima (Files) | 1 | 9 | 0 | 5 | 14 |
+| main\\java\\com\\itheima\\controller | 1 | 27 | 11 | 9 | 47 |
+| main\\java\\com\\itheima\\dao | 2 | 23 | 1 | 8 | 32 |
+| main\\java\\com\\itheima\\dao (Files) | 1 | 5 | 0 | 3 | 8 |
+| main\\java\\com\\itheima\\dao\\impl | 1 | 18 | 1 | 5 | 24 |
+| main\\java\\com\\itheima\\pojo | 1 | 16 | 0 | 4 | 20 |
+| main\\java\\com\\itheima\\service | 3 | 67 | 3 | 21 | 91 |
+| main\\java\\com\\itheima\\service (Files) | 1 | 6 | 0 | 4 | 10 |
+| main\\java\\com\\itheima\\service\\impl | 2 | 61 | 3 | 17 | 81 |
+| main\\resources | 3 | 16,401 | 299 | 125 | 16,825 |
+| main\\resources (Files) | 1 | 1 | 0 | 1 | 2 |
+| main\\resources\\static | 2 | 16,400 | 299 | 124 | 16,823 |
+| main\\resources\\static (Files) | 1 | 78 | 2 | 1 | 81 |
+| main\\resources\\static\\js | 1 | 16,322 | 297 | 123 | 16,742 |
+| test | 1 | 9 | 0 | 5 | 14 |
+| test\\java | 1 | 9 | 0 | 5 | 14 |
+| test\\java\\com | 1 | 9 | 0 | 5 | 14 |
+| test\\java\\com\\itheima | 1 | 9 | 0 | 5 | 14 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
