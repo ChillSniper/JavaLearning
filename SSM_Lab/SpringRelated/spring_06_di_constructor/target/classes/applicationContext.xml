@@ -5,6 +5,7 @@
 <!--
     标准书写
     <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl">
+        根据构造方法参数名称注入
         <constructor-arg name="connectionNum" value="10"/>
         <constructor-arg name="databaseName" value="mysql"/>
     </bean>
@@ -18,6 +19,7 @@
 <!--
     解决形参名称的问题，与形参名不耦合
     <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl">
+        根据构造方法参数类型注入
         <constructor-arg type="int" value="10"/>
         <constructor-arg type="java.lang.String" value="mysql"/>
     </bean>
@@ -28,8 +30,9 @@
         <constructor-arg name="bookDao" ref="bookDao"/>
     </bean>-->
 
-
+    <!--解决参数类型重复问题，使用位置解决参数匹配-->
     <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl">
+        <!--根据构造方法参数位置注入-->
         <constructor-arg index="0" value="mysql"/>
         <constructor-arg index="1" value="100"/>
     </bean>

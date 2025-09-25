@@ -15,7 +15,7 @@
         <!--property标签表示配置当前bean的属性
         name属性表示配置哪一个具体的属性
         ref属性表示参照哪一个bean-->
-        <!--<property name="bookDao" ref="bookDao"/>-->
+        <property name="bookDao" ref="bookDao"/>
     </bean>
 
 </beans>
