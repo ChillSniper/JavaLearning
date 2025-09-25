@@ -181,5 +181,86 @@ public class SpringConfig {
 使用**注解**的形式作**依赖注入**
 
 ```java
-
+@Service 
+public class BookServiceImpl implements BookService {
+    @Autowired
+    @Qualifier("bookDao")
+    private BookDao bookDao;
+}
 ```
+
+**注意点**：
+
+1. 自动装配基于反射设计，由此创建对象并暴力反射对应属性为私有属性初始化数据，所以没有必要提供**setter**方法
+
+@Qualifier注解无法单独使用，必须配合@Autowired注解使用
+@Qualifier注解开启指定名称装配bean
+
+关于加载**properties**文件
+利用@PropertySource
+
+```java
+@Configuration
+@ComponentScan("com.itheima")
+//@PropertySource加载properties配置文件
+@PropertySource({"jdbc.properties"})
+public class SpringConfig {
+}
+```
+
+### 第三方bean管理
+
+利用@Bean配置第三方bean
+
+最好使用独立的第三方配置类，然后
+要么导入式，使用@Import注解手动加入配置类到核心配置
+
+```java
+@Configuration
+@Import(JdbcConfig.class)
+public class SpringConfig {
+
+}
+```
+
+要么使用扫描式，但是不推荐
+
+### 关于注解开发的总结
+
+![alt text](image-7.png)
+
+### Spring整合MyBatis
+
+>我现在发现最麻烦的地方是，我根本对这些架构不熟悉，为什么导包，为什么导入这些数据，都是云里雾里的。
+>这简直是一种折磨
+
+tmd这个根本听不懂
+
+### 整合JUnit
+
+这部分不知道讲了什么玩意，用于测试类
+
+### AOP
+
+AOP是**面向切面编程**
+
+**无侵入式**编程
+
+在不惊动原始设计的基础上为其进行功能增强
+
+**连接点**指代所有方法
+而**切入点**指代要追加功能的方法
+
+共性功能 -> **通知**
+
+**切面**描述的是通知和切入点之间的关系
+
+通知外部包一个类，也就引申出了**通知类**！！！！！
+
+![alt text](image-8.png)
+
+如上是一个比较清晰的AOP框架图
+
+在SpringAOP中，一个切入点可以只描述一个具体方法，也可以匹配多个方法
+
+### AOP工作流程

@@ -4,11 +4,13 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.itheima.dao.BookDao;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
-//@Configuration
+@Configuration
+@ComponentScan("com.itheima.config")
 public class JdbcConfig {
     //1.定义一个方法获得要管理的对象
     @Value("com.mysql.jdbc.Driver")
