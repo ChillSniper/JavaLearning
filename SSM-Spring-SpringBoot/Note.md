@@ -264,3 +264,68 @@ AOP是**面向切面编程**
 在SpringAOP中，一个切入点可以只描述一个具体方法，也可以匹配多个方法
 
 ### AOP工作流程
+
+Spring容器启动
+
+AOP使用的是**代理**模式
+
+目标对象（Target）和代理（Proxy）
+
+匹配上就造代理对象，不然就搞原始对象
+
+关于**AOP切入点表达式**
+
+这玩意就是要进行增强的方法的描述方式
+
+```java
+execution(public User com.itheima.service.UserService.findById(int))
+```
+
+![alt text](image-9.png)
+
+注意一些书写的技巧
+>这玩意看看就得了
+
+![alt text](image-10.png)
+
+AOP**通知类型**
+
+>为什么我感觉我好像听过这部分内容
+
+**AOP通知**：五种类型
+
+注意这个@Around
+
+```java
+@Around("pt2()")
+    public Object aroundSelect(ProceedingJoinPoint pjp) throws Throwable {
+        System.out.println("around before advice ...");
+        //表示对原始操作的调用
+        Integer ret = (Integer) pjp.proceed();
+        System.out.println("around after advice ...");
+        return ret;
+    }
+
+```
+
+注意这条
+
+![alt text](image-11.png)
+
+如何从AOP通知中获取数据？
+
+**AOP**总结
+
+>这部分内容我觉得学了个寂寞，也许在项目中会体现其作用
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+注意这个**切入点表达式**
+
+![alt text](image-14.png)
+
+**通知**中，要注意@Around，即**环绕通知**
+
+### Spring事务

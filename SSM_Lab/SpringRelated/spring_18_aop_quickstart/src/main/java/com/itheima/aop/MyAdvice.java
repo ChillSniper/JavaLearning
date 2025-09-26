@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class MyAdvice {
     //设置切入点，要求配置在方法上方
-    @Pointcut("execution(void com.itheima.dao.BookDao.update())")
+    @Pointcut("execution(void *..*(..))")
     private void pt(){}
 
     //设置在切入点pt()的前面运行当前操作（前置通知）

@@ -28,13 +28,13 @@ public class MyAdvice {
 //    @Around("pt()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("around before advice ...");
-        //表示对原始操作的调用
+        //表示对原始操作的调用，注意返回值int！
         Object ret = pjp.proceed();
         System.out.println("around after advice ...");
         return ret;
     }
 
-//    @Around("pt2()")
+    @Around("pt2()")
     public Object aroundSelect(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("around before advice ...");
         //表示对原始操作的调用

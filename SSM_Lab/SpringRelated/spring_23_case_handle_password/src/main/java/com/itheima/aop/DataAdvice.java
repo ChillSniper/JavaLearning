@@ -21,8 +21,7 @@ public class DataAdvice {
                 args[i] = args[i].toString().trim();
             }
         }
-        Object ret = pjp.proceed(args);
-        return ret;
+        return pjp.proceed(args);
     }
 
 
