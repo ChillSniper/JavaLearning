@@ -363,3 +363,15 @@ tmd这个我根本听不明白在讲什么
 在业务层接口上添加Spring事务，设置事务传播行为**REQUIRES_NEW**（需要新事务）
 
 ## SpringMVC
+
+这个技术实际上隶属于Spring技术
+与Servlet技术功能相同，都是web层开发技术，但是开发更加简便！
+
+![alt text](image-16.png)
+
+操作流程
+
+1. 先导入SpringMVC坐标
+2. 创建SpringMVC控制器类
+3. 初始化SpringMVC环境，配置加载对应的Bean
+4. 初始化Servlet容器，加载SpringMVC环境

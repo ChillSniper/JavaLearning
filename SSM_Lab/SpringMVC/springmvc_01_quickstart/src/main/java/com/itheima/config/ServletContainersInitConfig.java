@@ -7,6 +7,7 @@ import org.springframework.web.servlet.support.AbstractDispatcherServletInitiali
 //web容器配置类
 public class ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
     //加载springmvc配置类，产生springmvc容器（本质还是spring容器）
+    @Override
     protected WebApplicationContext createServletApplicationContext() {
         //初始化WebApplicationContext对象
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
@@ -15,11 +16,13 @@ public class ServletContainersInitConfig extends AbstractDispatcherServletInitia
         return ctx;
     }
 
+    @Override
     //设置由springmvc控制器处理的请求映射路径
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
 
+    @Override
     //加载spring配置类
     protected WebApplicationContext createRootApplicationContext() {
         return null;
