@@ -1,2 +1,11 @@
 *.js linguist-detectable=false
 *.jsx linguist-detectable=false
+*.vue linguist-detectable=false
+*.mjs linguist-detectable=false
+*.cjs linguist-detectable=false
+
+*.vue linguist-language=Vue
+
+dist/* linguist-vendored
+build/* linguist-vendored
+node_modules/* linguist-vendored

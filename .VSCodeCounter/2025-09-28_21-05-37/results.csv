@@ -1,0 +1,13 @@
+"filename", "language", "PostCSS", "JavaScript", "XML", "HTML", "comment", "blank", "total"
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\css\style.css", "PostCSS", 547, 0, 0, 0, 26, 590, 1163
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\js\axios-0.18.0.js", "JavaScript", 0, 7, 0, 0, 2, 8, 17
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\js\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 1
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\js\jquery.min.js", "JavaScript", 0, 3, 0, 0, 1, 1, 5
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\js\vue.js", "JavaScript", 0, 9183, 0, 0, 1632, 11078, 21893
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\pages\books.html", "HTML", 0, 0, 0, 120, 4, 20, 144
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\plugins\elementui\index.css", "PostCSS", 1, 0, 0, 0, 0, 0, 1
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\plugins\elementui\index.js", "JavaScript", 0, 3, 0, 0, 36, 0, 39
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\plugins\font-awesome\css\font-awesome.css", "PostCSS", 2327, 0, 0, 0, 15, 2333, 4675
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\plugins\font-awesome\css\font-awesome.min.css", "PostCSS", 1, 0, 0, 0, 6, 2, 9
+"d:\ComputerScienceLearning\JavaLearningForWork\SSM_Lab\SpringMVC\springmvc_07_rest_case\src\main\webapp\plugins\font-awesome\fonts\fontawesome-webfont.svg", "XML", 0, 0, 2671, 0, 0, 1, 2672
+"Total", "-", 2876, 9197, 2671, 120, 1722, 14033, 30619
