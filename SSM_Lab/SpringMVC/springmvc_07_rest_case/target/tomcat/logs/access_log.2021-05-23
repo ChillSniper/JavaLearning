@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:53 +0800] "GET /pages/books.html HTTP/1.1" 200 6014 http-bio-80-exec-1 71
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /css/style.css HTTP/1.1" 304 - http-bio-80-exec-4 20
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 - http-bio-80-exec-2 23
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /plugins/elementui/index.css HTTP/1.1" 304 - http-bio-80-exec-3 26
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /js/axios-0.18.0.js HTTP/1.1" 304 - http-bio-80-exec-8 29
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /js/jquery.min.js HTTP/1.1" 304 - http-bio-80-exec-7 62
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /js/vue.js HTTP/1.1" 304 - http-bio-80-exec-5 74
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /plugins/elementui/index.js HTTP/1.1" 304 - http-bio-80-exec-6 128
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /plugins/elementui/fonts/element-icons.woff HTTP/1.1" 304 - http-bio-80-exec-5 11
+0:0:0:0:0:0:0:1 - - [23/May/2021:20:31:54 +0800] "GET /books HTTP/1.1" 200 310 http-bio-80-exec-6 62
