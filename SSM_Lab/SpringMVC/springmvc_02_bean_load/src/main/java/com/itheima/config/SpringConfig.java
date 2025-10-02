@@ -12,7 +12,7 @@ import org.springframework.stereotype.Controller;
 //type属性：设置排除规则，当前使用按照bean定义时的注解类型进行排除
 //classes属性：设置排除的具体注解类，当前设置排除@Controller定义的bean
 @ComponentScan(value="com.itheima",
-    excludeFilters = @ComponentScan.Filter(
+        excludeFilters = @ComponentScan.Filter(
         type = FilterType.ANNOTATION,
         classes = Controller.class
     )

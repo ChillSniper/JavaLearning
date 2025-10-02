@@ -375,3 +375,80 @@ tmd这个我根本听不明白在讲什么
 2. 创建SpringMVC控制器类
 3. 初始化SpringMVC环境，配置加载对应的Bean
 4. 初始化Servlet容器，加载SpringMVC环境
+
+关于**启动服务器**的初始化过程
+
+关于**单次请求**过程
+
+这部分听的还是非常晕
+
+### Bean加载控制
+
+由于功能不同，我们需要避免Spring错误的加载到SpringMvc的bean
+
+也就是说，**在加载Spring控制的bean的时候，需要排除掉SpringMVC控制的Bean**！！！
+
+>通俗的说，就是该加载什么就加载什么
+
+![alt text](image-17.png)
+
+关于@CompentScan的说明
+
+```java
+@Configuration
+@CompentScan(value = "com.itheima", 
+    excludeFilters = @ComponentScan.Filter(
+        type = FilterType.ANNOTATION,
+        classes = Controller.class
+    )
+)
+```
+
+关于**PostMan**
+
+没什么鸟用的一个工具
+
+### 请求与响应
+
+可以设置**请求映射路径**
+
+Get请求
+Post请求
+
+#### 各种请求参数
+
+普通参数：请求参数名和形参变量名**不同**，使用@RequestParam绑定参数关系
+![alt text](image-18.png)
+
+```java
+@RequestMapping("/commonParamDifferentName")
+@ResponseBody
+public String commonParamDifferentName(@RequestParam("name")String userName, int age) {
+    System.out.println("normal param send: userName ==>" + userName);
+    return "{'module': 'common param different name'}";
+}
+```
+
+剩下几种都差不多
+名称对得上的就行，对不上的用@RequestParam
+
+更为常用的是**json交互**
+
+#### 日期类型参数传递
+
+用@DataTimeFormat设定日期格式
+
+```java
+@RequestMapping("/dataParam")
+    @ResponseBody
+    public String dataParam(Date date,
+                            @DateTimeFormat(pattern="yyyy-MM-dd") Date date1,
+                            @DateTimeFormat(pattern="yyyy/MM/dd HH:mm:ss") Date date2){
+        System.out.println("参数传递 date ==> "+date);
+        System.out.println("参数传递 date1(yyyy-MM-dd) ==> "+date1);
+        System.out.println("参数传递 date2(yyyy/MM/dd HH:mm:ss) ==> "+date2);
+        return "{'module':'data param'}";
+    }
+```
+
+#### 关于响应

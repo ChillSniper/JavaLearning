@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_22_aop_advice_data" />
+        <module name="spring_07_di_autoware" />
+        <module name="spring_13_annotation_di" />
+        <module name="spring_16_spring_junit" />
+        <module name="spring_24_case_transfer" />
+        <module name="spring_10_container" />
+        <module name="spring_14_annotation_third_bean_manager" />
+        <module name="springmvc_06_rest" />
+        <module name="springmvc_01_quickstart" />
+        <module name="spring_15_spring_mybatis" />
+        <module name="springmvc_02_bean_load" />
+        <module name="spring_17_aop_demo" />
+        <module name="spring_09_datasource" />
+        <module name="spring_23_case_handle_password" />
+        <module name="spring_25_case_transfer_log" />
+        <module name="spring_11_annotation_bean" />
+        <module name="spring_01_quickstart" />
+        <module name="spring_05_di_set" />
+        <module name="spring_08_di_collection" />
+        <module name="springmvc_03_request_mapping" />
+        <module name="spring_20_aop_advice_type" />
+        <module name="spring_12_annotation_bean_manager" />
+        <module name="springmvc_05_response" />
+        <module name="spring_18_aop_quickstart" />
+        <module name="springmvc_07_rest_case" />
+        <module name="spring_06_di_constructor" />
+        <module name="spring_02_base_config" />
+        <module name="spring_19_aop_pointcut" />
+        <module name="spring_21_case_interface_run_speed" />
+        <module name="spring_03_bean_instance" />
+        <module name="spring_04_bean_lifecycle" />
+        <module name="springmvc_04_request_param" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
