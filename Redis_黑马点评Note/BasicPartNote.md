@@ -167,3 +167,57 @@ SortedSet特性
 SpringDataRedis中提供了RedisTemplate工具类，封装了各种关于**Redis**的操作
 
 ![alt text](image-3.png)
+
+>md我真的是服了，过了一个晚上Redis莫名其妙就连接不上去了，而且CentOS 7的ip地址也诡异的变掉了。
+>这个东西明天登录的时候继续试一下，如果还是CentOS 7的ip地址变化的问题导致连接失败，就将CentOS 7的ip地址直接写死，防止变化。
+>现在检查防火墙问题
+
+**Important！！！！！**：如何在**Windows**上连接部署在CentOS 7上的Redis服务器
+
+1. 打开CentOS 7虚拟机
+2. 输入redis-cli，开始启动Redis服务器
+3. 输入 auth **password**，登录进入Redis
+4. **非常重要！！！**：先输入quit退出Redis交互界面，然后输入systemctl stop firewalld.service，**关闭防火墙！！！！！**
+
+>真的坑人，这个连接步骤，而且每天登录进入都要重新登一次
+>算了，我需要冷静下来。不要发火，更不能着急。
+
+### SpringDataRedis的序列化方式
+
+默认方式是采用JDK序列化，但是有很大的缺点
+
+- 可读性非常差
+- 占用内存大
+
+因此必须改变RedisTemplate的**序列化方式**！！！
+
+### StringRedisTemplate
+
+用Json的序列化方式可以满足一定的需求，但是存在一定的问题。
+Json序列化器会把类的class类型加载进入Json结果中，存进Redis，造成额外的内存开销
+
+由此，我们统一使用String序列化器
+
+![alt text](image-4.png)
+
+手动进行**序列化**和**反序列化**
+
+比如：
+
+```java
+@Test
+    void testSaveUser() throws JsonProcessingException {
+        // 现在得手动序列化
+        User user = new User("虎哥", 21);
+        String json = objectMapper.writeValueAsString(user);
+        stringRedisTemplate.opsForValue().set("user:200", json);
+
+        String jsonUser = stringRedisTemplate.opsForValue().get("user:200");
+
+        // 手动反序列化
+
+        User newUser = objectMapper.readValue(jsonUser, User.class);
+
+        System.out.println("o = " + newUser);
+    }
+```
