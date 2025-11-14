@@ -20,7 +20,7 @@ cron表达式在线生成器：<https://cron.qqe2.com>
 
 ## 订单状态定时处理
 
-![alt text](image-17.png)
+![alt text](..\pictures\image-17_4.png)
 
 这个地方没有**接口**这个概念，因为是自动执行的
 
@@ -37,7 +37,7 @@ cron表达式在线生成器：<https://cron.qqe2.com>
 - HTTP通信是单向的，基于请求响应模式
 - WebSocket支持双向通信
 - HTTP和WebSocket底层都是TCP连接
-![alt text](image-18.png) ![alt text](image-19.png)
+![alt text](..\pictures\image-18_5.png) ![alt text](..\pictures\image-19_4.png)
 
 ## 来单提醒
 
@@ -45,4 +45,4 @@ cron表达式在线生成器：<https://cron.qqe2.com>
 
 ## 客户催单
 
-![alt text](image-20.png)
+![alt text](..\pictures\image-20_4.png)

@@ -11,7 +11,7 @@
 基于**内存**存储，读写性能更高
 适合存储**热点数据**
 
-![alt text](image-10.png)
+![alt text](..\pictures\image-10_5.png)
 
 这个的完整版似乎需要在Linux上进行配置
 
@@ -27,7 +27,7 @@
 
 各种数据类型的特点：
 
-![alt text](image-11.png)
+![alt text](..\pictures\image-11_4.png)
 
 ## Redis常用命令
 
@@ -109,7 +109,7 @@ Redis有序集合是string类型元素的集合，并且不允许含有重复成
 
 操作步骤：
 
-![alt text](image-12.png)
+![alt text](..\pictures\image-12_5.png)
 
 ## 店铺营业状态设置
 

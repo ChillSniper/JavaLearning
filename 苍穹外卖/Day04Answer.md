@@ -6,9 +6,9 @@
 
 产品原型：
 
-![image-20221018135930842](assets/image-20221018135930842.png)
+![image-20221018135930842](..\pictures\image-20221018135930842.png)
 
-![image-20221018140833345](assets/image-20221018140833345.png)
+![image-20221018140833345](..\pictures\image-20221018140833345.png)
 
 业务规则：
 
@@ -26,9 +26,9 @@
 - 图片上传（已完成）
 - 新增套餐
 
-![image-20221018141521068](assets/image-20221018141521068.png)
+![image-20221018141521068](..\pictures\image-20221018141521068.png)
 
-![image-20221018141606787](assets/image-20221018141606787.png)
+![image-20221018141606787](..\pictures\image-20221018141606787.png)
 
 数据库设计：
 
@@ -276,7 +276,7 @@ void insertBatch(List<SetmealDish> setmealDishes);
 
 产品原型：
 
-![image-20221018152429246](assets/image-20221018152429246.png)
+![image-20221018152429246](..\pictures\image-20221018152429246.png)
 
 业务规则：
 
@@ -286,7 +286,7 @@ void insertBatch(List<SetmealDish> setmealDishes);
 
 接口设计：
 
-![image-20221018152731141](assets/image-20221018152731141.png)
+![image-20221018152731141](..\pictures\image-20221018152731141.png)
 
 ### 2.2 代码实现
 
@@ -383,7 +383,7 @@ Page<SetmealVO> pageQuery(SetmealPageQueryDTO setmealPageQueryDTO);
 
 产品原型：
 
-![image-20221018153756531](assets/image-20221018153756531.png)
+![image-20221018153756531](..\pictures\image-20221018153756531.png)
 
 业务规则：
 
@@ -392,7 +392,7 @@ Page<SetmealVO> pageQuery(SetmealPageQueryDTO setmealPageQueryDTO);
 
 接口设计：
 
-![image-20221018154541067](assets/image-20221018154541067.png)
+![image-20221018154541067](..\pictures\image-20221018154541067.png)
 
 ### 3.2 代码实现
 
@@ -488,7 +488,7 @@ void deleteBySetmealId(Long setmealId);
 
 产品原型：
 
-![image-20221018160214225](assets/image-20221018160214225.png)
+![image-20221018160214225](..\pictures\image-20221018160214225.png)
 
 接口设计（共涉及到5个接口）：
 
@@ -498,15 +498,15 @@ void deleteBySetmealId(Long setmealId);
 - 图片上传（已完成）
 - 修改套餐
 
-![image-20221018160915177](assets/image-20221018160915177.png)
+![image-20221018160915177](..\pictures\image-20221018160915177.png)
 
-![image-20221018160949864](assets/image-20221018160949864.png)
+![image-20221018160949864](..\pictures\image-20221018160949864.png)
 
-![image-20221018161046352](assets/image-20221018161046352.png)
+![image-20221018161046352](..\pictures\image-20221018161046352.png)
 
-![image-20221018161117780](assets/image-20221018161117780.png)
+![image-20221018161117780](..\pictures\image-20221018161117780.png)
 
-![image-20221018161139861](assets/image-20221018161139861.png)
+![image-20221018161139861](..\pictures\image-20221018161139861.png)
 
 ### 4.2 代码实现
 
@@ -627,7 +627,7 @@ List<SetmealDish> getBySetmealId(Long setmealId);
 
 产品原型：
 
-![image-20221018163720881](assets/image-20221018163720881.png)
+![image-20221018163720881](..\pictures\image-20221018163720881.png)
 
 业务规则：
 
@@ -637,7 +637,7 @@ List<SetmealDish> getBySetmealId(Long setmealId);
 
 接口设计：
 
-![image-20221018165055208](assets/image-20221018165055208.png)
+![image-20221018165055208](..\pictures\image-20221018165055208.png)
 
 ### 5.2 代码实现
 

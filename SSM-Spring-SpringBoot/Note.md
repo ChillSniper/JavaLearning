@@ -1,10 +1,10 @@
 # 整体架构
 
-![alt text](image.png)
+![alt text](..\pictures\image_6.png)
 
 ## Spring Framework系统架构
 
-![alt text](image-1.png)
+![alt text](..\pictures\image-1_5.png)
 
 ## Spring核心概念
 
@@ -29,7 +29,7 @@ IoC是用来管理Bean的，这个Bean，也就是对象
 
 注意这个细节
 
-![alt text](image-2.png)
+![alt text](..\pictures\image-2_5.png)
 
 ref指的是当前容器中bean的名字
 而name指的是实现类中bean属性的名字（就是对象的名字）
@@ -127,7 +127,7 @@ public void setNumber(int number) {
 
 ### 加载properties文件
 
-![alt text](image-3.png)
+![alt text](..\pictures\image-3_5.png)
 
 这个不知道什么鬼，根本听不懂
 
@@ -139,11 +139,11 @@ BeanFactory创建完毕之后，所有的bean都是延迟加载
 
 ### 核心容器总结
 
-![alt text](image-5.png)
+![alt text](..\pictures\image-5_5.png)
 
 关于**依赖注入**相关
 
-![alt text](image-6.png)
+![alt text](..\pictures\image-6_4.png)
 
 ### 注解开发
 
@@ -227,7 +227,7 @@ public class SpringConfig {
 
 ### 关于注解开发的总结
 
-![alt text](image-7.png)
+![alt text](..\pictures\image-7_5.png)
 
 ### Spring整合MyBatis
 
@@ -257,7 +257,7 @@ AOP是**面向切面编程**
 
 通知外部包一个类，也就引申出了**通知类**！！！！！
 
-![alt text](image-8.png)
+![alt text](..\pictures\image-8_5.png)
 
 如上是一个比较清晰的AOP框架图
 
@@ -281,12 +281,12 @@ AOP使用的是**代理**模式
 execution(public User com.itheima.service.UserService.findById(int))
 ```
 
-![alt text](image-9.png)
+![alt text](..\pictures\image-9_5.png)
 
 注意一些书写的技巧
 >这玩意看看就得了
 
-![alt text](image-10.png)
+![alt text](..\pictures\image-10_4.png)
 
 AOP**通知类型**
 
@@ -310,7 +310,7 @@ AOP**通知类型**
 
 注意这条
 
-![alt text](image-11.png)
+![alt text](..\pictures\image-11_3.png)
 
 如何从AOP通知中获取数据？
 
@@ -318,13 +318,13 @@ AOP**通知类型**
 
 >这部分内容我觉得学了个寂寞，也许在项目中会体现其作用
 
-![alt text](image-12.png)
+![alt text](..\pictures\image-12_4.png)
 
-![alt text](image-13.png)
+![alt text](..\pictures\image-13_4.png)
 
 注意这个**切入点表达式**
 
-![alt text](image-14.png)
+![alt text](..\pictures\image-14_4.png)
 
 **通知**中，要注意@Around，即**环绕通知**
 
@@ -356,7 +356,7 @@ tmd这个我根本听不明白在讲什么
 
 事务传播行为
 
-![alt text](image-15.png)
+![alt text](..\pictures\image-15_4.png)
 
 由此引申到事务的**传播**
 
@@ -367,7 +367,7 @@ tmd这个我根本听不明白在讲什么
 这个技术实际上隶属于Spring技术
 与Servlet技术功能相同，都是web层开发技术，但是开发更加简便！
 
-![alt text](image-16.png)
+![alt text](..\pictures\image-16_4.png)
 
 操作流程
 
@@ -390,7 +390,7 @@ tmd这个我根本听不明白在讲什么
 
 >通俗的说，就是该加载什么就加载什么
 
-![alt text](image-17.png)
+![alt text](..\pictures\image-17_3.png)
 
 关于@CompentScan的说明
 
@@ -418,7 +418,7 @@ Post请求
 #### 各种请求参数
 
 普通参数：请求参数名和形参变量名**不同**，使用@RequestParam绑定参数关系
-![alt text](image-18.png)
+![alt text](..\pictures\image-18_4.png)
 
 ```java
 @RequestMapping("/commonParamDifferentName")

@@ -30,7 +30,7 @@ Learn about $MySQL$
 
 ### SQL分类
 
-![alt text](image.png)
+![alt text](..\pictures\image_3.png)
 
 $Definition$，$Manipulation$，$Query$，$Control$
 
@@ -342,7 +342,7 @@ select 字段列表 from 表名 limit 起始索引, 查询记录数;
 注意区分**编写**顺序和**执行**顺序！
 执行次序：from->where->group by->having->select->order by->limit
 
-![alt text](image-1.png)
+![alt text](..\pictures\image-1_3.png)
 
 ### $DCL$
 
@@ -485,7 +485,7 @@ Alter Table 表名 Add Constraint 外键名称 Foreign Key (外键字段) Refere
 ```
 
 这部分内容有点混乱
-![alt text](image-2.png)
+![alt text](..\pictures\image-2_3.png)
 
 ## 多表查询
 
@@ -593,7 +593,7 @@ select * from emp where (salary, managerid) = (select salary, managerid from emp
 
 ### 多表查询小结
 
-![alt text](image-3.png)
+![alt text](..\pictures\image-3_3.png)
 
 ## 事务
 
@@ -665,7 +665,7 @@ ROLLBACK;
 
 ### 事务隔离级别
 
-![alt text](image-4.png)
+![alt text](..\pictures\image-4_3.png)
 
 查看事务隔离级别：
 
