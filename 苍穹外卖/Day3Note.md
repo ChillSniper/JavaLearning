@@ -26,7 +26,7 @@
 
 **接口设计**如下：
 
-![alt text](..\pictures\image-8_6.png)
+![alt text](../pictures/image-8_6.png)
 
 ---
 
@@ -106,7 +106,7 @@ public Result<EmployeeVO> getEmployee(@PathVariable Long id) {
 
 ……SpringBoot学的实在是过于匆忙，后面要回过去把那部分内容补一下，不然真属于基础不牢
 
-![alt text](..\pictures\image-9_6.png)
+![alt text](../pictures/image-9_6.png)
 
 从**Controller**到**Service**，再从**Service**到**Mapper**，最后通过**Mapper**访问操作数据库
 

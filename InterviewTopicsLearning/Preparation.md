@@ -17,7 +17,7 @@ Boss直聘
 
 ## 面试形式
 
-![alt text](..\pictures\image.png)
+![alt text](../pictures/image.png)
 
 特别注意这个**面试官角色**
 
@@ -27,7 +27,7 @@ Boss直聘
 
 ### 如何准备面试？
 
-![alt text](..\pictures\image-1.png)
+![alt text](../pictures/image-1.png)
 
 参考：<https://juejin.cn/post/7206116224840138810>
 

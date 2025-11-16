@@ -4,7 +4,7 @@
 
 关于软件开发的流程
 
-![alt text](..\pictures\image_7.png)
+![alt text](../pictures/image_7.png)
 
 ## 项目的整体介绍
 
@@ -14,7 +14,7 @@
 
 关于**技术选型**
 
-![alt text](..\pictures\image-1_6.png)
+![alt text](../pictures/image-1_6.png)
 
 ## 开发环境搭建
 
@@ -22,7 +22,7 @@
 
 后端工程基于**Maven**进行项目构建，并且分模块开发
 
-![alt text](..\pictures\image-2_6.png)
+![alt text](../pictures/image-2_6.png)
 
 在初始工程的基础上，进行开发
 
@@ -41,7 +41,7 @@
 
 Nginx反向代理，**就是将前端发送的动态请求由Nginx转发到Tomcat后端服务器**
 
-![alt text](..\pictures\image-3_6.png)
+![alt text](../pictures/image-3_6.png)
 
 之所以不直接从前端服务器转发到后端服务器，原因如下
 
@@ -61,11 +61,11 @@ server{
 
 nginx负载均衡的配置方式
 
-![alt text](..\pictures\image-4_5.png)
+![alt text](../pictures/image-4_5.png)
 
 nginx**负载均衡策略**：
 
-![alt text](..\pictures\image-5_6.png)
+![alt text](../pictures/image-5_6.png)
 
 ### 完善登录功能
 
@@ -97,10 +97,10 @@ nginx**负载均衡策略**：
 
 **Knife4j**：为Java MVC框架继承Swagger生成Api文档的增强解决方案
 
-![alt text](..\pictures\image-6_5.png)
+![alt text](../pictures/image-6_5.png)
 
 ### 关于Swagger的常用注解
 
-![alt text](..\pictures\image-7_6.png)
+![alt text](../pictures/image-7_6.png)
 
 相当于给类、属性、方法等提供名称等注释

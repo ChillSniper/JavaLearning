@@ -14,7 +14,7 @@
 通过**Redis**来缓存菜品数据，减少数据库查询操作
 （因为Redis数据在内存里面，而利用数据库操作是磁盘IO操作）
 
-![alt text](..\pictures\image-14_5.png)
+![alt text](../pictures/image-14_5.png)
 
 **注意**：
 
@@ -39,7 +39,7 @@
 
 **常用的注解**：
 
-![alt text](..\pictures\image-15_5.png)
+![alt text](../pictures/image-15_5.png)
 
 >md我真搞不懂这个功能有什么鸟用
 

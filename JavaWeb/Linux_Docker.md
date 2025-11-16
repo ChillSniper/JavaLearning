@@ -2,7 +2,7 @@
 
 Linux系统之前在VM workstation装过，这个好说
 
-![alt text](..\pictures\image-31_1.png)
+![alt text](../pictures/image-31_1.png)
 
 Linux系统下，"/"代表**根目录**
 
@@ -28,15 +28,15 @@ systemctl stop firewalld
 
 **Docker**是一款快速构建、运行、管理应用的工具
 
-![alt text](..\pictures\docker_download_success.png)
+![alt text](../pictures/docker_download_success.png)
 
 注意**image**的意思是**镜像**
 
-![alt text](..\pictures\image-32_1.png)
+![alt text](../pictures/image-32_1.png)
 
 注意**容器**container的含义！
 
-![alt text](..\pictures\image-33_1.png)
+![alt text](../pictures/image-33_1.png)
 
 境内无法连接DockerHub，只能连接国内镜像源
 
@@ -51,13 +51,13 @@ docker run -d \
   mysql:8
 ```
 
-![alt text](..\pictures\image-35_1.png)
+![alt text](../pictures/image-35_1.png)
 
 ### 镜像命名规范
 
 \[respository]:[tag]
 
-![alt text](..\pictures\image-36.png)
+![alt text](../pictures/image-36.png)
 
 那个tag就是版本号
 
@@ -65,7 +65,7 @@ docker run -d \
 
 一些常见命令的汇总（见下图）：
 
-![alt text](..\pictures\image-37.png)
+![alt text](../pictures/image-37.png)
 
 关于**数据卷**
 
@@ -75,7 +75,7 @@ docker run -d \
 
 由此引申出**数据卷**的功能
 
-![alt text](..\pictures\image-38.png)
+![alt text](../pictures/image-38.png)
 
 关于**本地目录挂载**
 
@@ -83,23 +83,23 @@ docker run -d \
 
 ### 自定义镜像
 
-![alt text](..\pictures\image-39.png)
+![alt text](../pictures/image-39.png)
 
 关于DockerFile
 
-![alt text](..\pictures\image-40.png)
+![alt text](../pictures/image-40.png)
 
 ### 网络
 
-![alt text](..\pictures\image-41.png)
+![alt text](../pictures/image-41.png)
 
 这部分内容听着格外抽象，不知道有什么鸟用
 
 ## 关于DockerCompose
 
-![alt text](..\pictures\image-42.png)
+![alt text](../pictures/image-42.png)
 
-![alt text](..\pictures\image-43.png)
+![alt text](../pictures/image-43.png)
 
 自此，JavaWeb课程基础学习完结！
 

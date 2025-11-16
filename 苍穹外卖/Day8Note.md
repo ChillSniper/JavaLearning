@@ -13,7 +13,7 @@
 订单表 **orders**
 订单明细表 **order_detail**
 
-![alt text](..\pictures\image-16_5.png)
+![alt text](../pictures/image-16_5.png)
 
 ## 订单支付
 
