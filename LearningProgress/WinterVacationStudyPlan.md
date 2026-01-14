@@ -14,6 +14,8 @@
 - [] 如果还有空余时间，学一下MIT 6.S081: Operating System Engineering，自己对操作系统的理解还是非常欠缺的；
 - [] 必须抽时间读一下CSAPP，并且学一下这门课：CMU CS15213
 
+怎么说呢，要学的东西太多了，所以需要结合 Gemini、ChatGPT 和 Claude 给出的建议，做个取舍。
+
 ## technology stack learning later
 
 - [] 学习编写脚本

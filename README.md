@@ -13,10 +13,13 @@ Written on 2025.07.06.
 - [12306_ProjectLearning](./12306_Project_Learning)：对仿写 12306 项目的学习笔记；
 - [苍穹外卖](./苍穹外卖)：如其名，仿写美团外卖的基础项目；
 - [InterviewExperienceCollections](./InterviewExperienceCollections)：搜集到的各家大厂面经、以及我自己的面试过程整理与复盘；
+- [GeneralArtificialIntelligenceLearning](./GeneralArtificalIntelligenceLearning)：对泛人工智能技术的基础学习；
+- [IntershipLog](./IntershipLog)：实习过程的一点记录；
 - [InterviewTopicsLearning](./InterviewTopicsLearning)：面试之计算机基础、Java 后端技术栈的八股整理；
 - [JavaSE_Project](./JavaSE_Project)：听黑马的 JavaSE 课程时，写的一些 ToyProject；
 - [JavaWeb](./JavaWeb)：学习这门技术时做的一些技术笔记；
 - [JavaWeb_LearningProject](./JavaWeb_LearningProject)：学习 JavaWeb 时，做的一些 ToyProject；
+- [KafkaLearning](./KafkaLearning)：对于Kafka的学习笔记和源码分析；
 - [LearningProgress](./LearningProgress)：我的后端开发学习过程，一些日志记录和学习计划；
 - [NotesOfJavaBasic](./NotesOfJavaBasic)：JavaSE 的课程笔记；
 - [NotesOfMySQL](./NotesOfMySQL)：听黑马程序员的MySQL时，所做的课程笔记；
@@ -31,7 +34,7 @@ Written on 2025.07.06.
 
 Written on 2025.12.30
 
-> 第一段日常实习去向：北京 途游游戏 Java 开发工程师（中台）实习生；
+> 第一段日常实习去向：北京 途游游戏 Golang 开发工程师（中台）实习生；
 >
 > Start from 2026.01.04
 
