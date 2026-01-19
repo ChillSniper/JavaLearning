@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc_05_response" />
+        <module name="springmvc_07_rest_case" />
+        <module name="springmvc_02_bean_load" />
+        <module name="spring_17_aop_demo" />
+        <module name="spring_01_quickstart" />
+        <module name="spring_05_di_set" />
+        <module name="spring_10_container" />
+        <module name="springmvc_06_rest" />
+        <module name="springmvc_01_quickstart" />
+        <module name="springmvc_04_request_param" />
+        <module name="springmvc_03_request_mapping" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

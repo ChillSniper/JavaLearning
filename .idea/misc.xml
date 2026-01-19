@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringMVC/springmvc_06_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringMVC/springmvc_05_response/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringMVC/springmvc_02_bean_load/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringMVC/springmvc_07_rest_case/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringMVC/springmvc_01_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringMVC/springmvc_04_request_param/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringMVC/springmvc_03_request_mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringRelated/spring_05_di_set/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringRelated/spring_17_aop_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringRelated/spring_10_container/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringRelated/spring_01_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Lab/SpringRelated/spring_09_datasource/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="25" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
