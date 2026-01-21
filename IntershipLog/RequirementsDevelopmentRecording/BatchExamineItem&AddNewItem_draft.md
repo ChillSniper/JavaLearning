@@ -3,11 +3,11 @@
 这个是**礼包内容配置**部分的网络信息：
 
 摘要
-URL: https://customer-service-feature-test-server-test.tuyougame.cn/api/customer-service/gift_code/v1/exclusive/config/list/?page=1&page_size=20
+URL: <https://customer-service-feature-test-server-test.tuyougame.cn/api/customer-service/gift_code/v1/exclusive/config/list/?page=1&page_size=20>
 状态: 200 OK
 来源: 网络
 地址: 127.0.0.1:9001
-初始化程序: 
+初始化程序:
 dataflux-rum.js:1350
 
 请求
@@ -20,10 +20,10 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNjQsInVzZXJu
 cloud_id: 3
 Connection: keep-alive
 game_id: 28
-Origin: https://customermanage-feature-test-web-test.tuyougame.cn
+Origin: <https://customermanage-feature-test-web-test.tuyougame.cn>
 Priority: u=3, i
 project_id: 10010
-Referer: https://customermanage-feature-test-web-test.tuyougame.cn/
+Referer: <https://customermanage-feature-test-web-test.tuyougame.cn/>
 Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-site
@@ -33,10 +33,10 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15
 响应
 HTTP/1.1 200 OK
 Access-Control-Allow-Credentials: true
-Access-Control-Allow-Headers: *
-Access-Control-Allow-Methods: *
+Access-Control-Allow-Headers:*
+Access-Control-Allow-Methods:*
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: *
+Access-Control-Expose-Headers:*
 Access-Control-Max-Age: 5
 Connection: keep-alive
 Content-Length: 1586
