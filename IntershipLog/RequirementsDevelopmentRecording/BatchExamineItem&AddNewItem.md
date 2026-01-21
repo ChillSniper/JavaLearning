@@ -45,3 +45,12 @@
 即使我可以问AI那个URL在哪，那部分的代码逻辑在项目的什么位置。但是这终究不是长久之计，我需要前端的数据……
 
 ### Question H: 那个“配置文件”是前端那边提供的，还是后端项目里哪段代码逻辑生成的？我压根没找到哪个func实现了这个功能……
+
+user:yangxiaoliang
+password:yangxiaoliang
+
+feature/test
+
+功能点分配到角色，角色分配到我自己
+
+角色管理
