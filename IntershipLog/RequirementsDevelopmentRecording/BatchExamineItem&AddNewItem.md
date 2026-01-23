@@ -172,3 +172,5 @@ PostBatchExamineItem 函数执行完毕，返回一个 *api.CommonNil (表示成
 响应沿着调用链路原路返回：gRPC Server -> gRPC-Gateway。
 gRPC-Gateway 将 *api.CommonNil 序列化为一个空的 JSON 对象 {}。
 gRPC-Gateway 最终向前端返回一个 HTTP 200 OK 响应，Body 为 {}。
+
+## Question I: 现在这个前后端联调非常麻烦，每次都要重新在Jenkins上部署一下，有没有什么简便点的方法？
