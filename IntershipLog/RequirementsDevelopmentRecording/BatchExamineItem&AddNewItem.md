@@ -143,34 +143,34 @@ graph TD
 
 6. 业务逻辑层 (Service Layer): PostBatchExamineItem 函数
 
-函数开始执行。
-从 gin.Context 中获取之前中间件存入的 staffId 和 staffName。
-遍历请求体中的 id_list。
-For each id in id_list:
-调用 dao_item_modify.DItemDao(c).FindById(id) 查询当前记录的状态。
-检查记录是否处于可审批的状态 (status == 1)。
-如果审批动作是“通过” (in.Action == 0):
-调用 dao_item_modify.DItemDao(c).Pass(...) 将数据库中的记录状态更新为“已通过”，并记录审批人、审批意见。
-如果设置了定时发送，还会调用 AddItemJob (可能是添加到定时任务队列) 和 dao_item_modify.DItemDao(c).Sending(...) 更新状态为“发送中”。
-如果审批动作是“拒绝” (in.Action != 0):
-调用 dao_item_modify.DItemDao(c).Reject(...) 将数据库中的记录状态更新为“已拒绝”，并记录审批人、审批意见。
-如果在任何步骤中发生错误，记录日志并继续处理下一个 ID。
+    - 函数开始执行。
+    - 从 gin.Context 中获取之前中间件存入的 staffId 和 staffName。
+    - 遍历请求体中的 id_list。
+    - For each id in id_list:
+    - 调用 dao_item_modify.DItemDao(c).FindById(id) 查询当前记录的状态。
+    - 检查记录是否处于可审批的状态 (status == 1)。
+    - 如果审批动作是“通过” (in.Action == 0):
+    - 调用 dao_item_modify.DItemDao(c).Pass(...) 将数据库中的记录状态更新为“已通过”，并记录审批人、审批意见。
+    - 如果设置了定时发送，还会调用 AddItemJob (可能是添加到定时任务队列) 和 dao_item_modify.DItemDao(c).Sending(...) 更新状态为“发送中”。
+    - 如果审批动作是“拒绝” (in.Action != 0):
+    - 调用 dao_item_modify.DItemDao(c).Reject(...) 将数据库中的记录状态更新为“已拒绝”，并记录审批人、审批意见。
+    - 如果在任何步骤中发生错误，记录日志并继续处理下一个 ID。
 
 7. 数据访问层 (DAO Layer): internal/dao/dao_item_modify/item_dao.go
 
-DAO 层的方法接收到 Service 层的调用。
-使用 GORM（或其他 ORM）将 Go 结构体操作转换为 SELECT, UPDATE 等 SQL 语句。
-向数据库发送 SQL 并执行。
+    - DAO 层的方法接收到 Service 层的调用。
+    - 使用 GORM（或其他 ORM）将 Go 结构体操作转换为 SELECT, UPDATE 等 SQL 语句。
+    - 向数据库发送 SQL 并执行。
 
 8. 数据库 (Database)
 
-数据库执行 SQL 语句，更新 item_record 之类的表。
+    - 数据库执行 SQL 语句，更新 item_record 之类的表。
 
 9. 返回响应 (Response Flow)
 
-PostBatchExamineItem 函数执行完毕，返回一个 *api.CommonNil (表示成功，无特殊数据返回) 和一个 ErrCodeSuccess。
-响应沿着调用链路原路返回：gRPC Server -> gRPC-Gateway。
-gRPC-Gateway 将 *api.CommonNil 序列化为一个空的 JSON 对象 {}。
-gRPC-Gateway 最终向前端返回一个 HTTP 200 OK 响应，Body 为 {}。
+    - PostBatchExamineItem 函数执行完毕，返回一个 *api.CommonNil (表示成功，无特殊数据返回) 和一个 ErrCodeSuccess。
+    - 响应沿着调用链路原路返回：gRPC Server -> gRPC-Gateway。
+    - gRPC-Gateway 将 *api.CommonNil 序列化为一个空的 JSON 对象 {}。
+    - gRPC-Gateway 最终向前端返回一个 HTTP 200 OK 响应，Body 为 {}。
 
 ## Question I: 现在这个前后端联调非常麻烦，每次都要重新在Jenkins上部署一下，有没有什么简便点的方法？

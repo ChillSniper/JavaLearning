@@ -11,8 +11,10 @@ Written on 2025.07.06.
 ## 仓库架构组成
 
 - [12306_ProjectLearning](./12306_Project_Learning)：对仿写 12306 项目的学习笔记；
+- [Customer-ServiceDocs](./Customer-serviceDocs/)：the docs of customer service system in my first intership of Tuyoo Game;
 - [InterviewExperienceCollections](./InterviewExperienceCollections)：搜集到的各家大厂面经、以及我自己的面试过程整理与复盘；
 - [GeneralArtificialIntelligenceLearning](./GeneralArtificalIntelligenceLearning)：对泛人工智能技术的基础学习；
+- [HadoopLearning](./HadoopLearning/)：对于 Hadoop 的了解学习；
 - [IntershipLog](./IntershipLog)：实习过程的一点记录；
 - [InterviewTopicsLearning](./InterviewTopicsLearning)：面试之计算机基础、Java 后端技术栈的八股整理；
 - [JavaSE_Project](./JavaSE_Project)：听黑马的 JavaSE 课程时，写的一些 ToyProject；
