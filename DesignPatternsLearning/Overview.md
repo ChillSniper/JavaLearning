@@ -7,3 +7,12 @@ this is the notes in the learning road of design patterns.
 ## 什么时候用设计模式
 
 设计模式，是对于软件设计中普遍存在的各种问题，所提出的解决方案；
+
+## Target
+
+- 代码重用性
+- 可读性（看得懂）
+- 可扩展性（便于加新的功能）
+- 可靠性（稳定）
+
+程序呈现：**高内聚，低耦合**
