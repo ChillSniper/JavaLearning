@@ -12,6 +12,7 @@ Written on 2025.07.06.
 
 - [12306_ProjectLearning](./12306_Project_Learning)：对仿写 12306 项目的学习笔记；
 - [Customer-ServiceDocs](./Customer-serviceDocs/)：the docs of customer service system in my first intership of Tuyoo Game;
+- [DesignPatternsLearning](./DesignPatternsLearning/)：对于设计模式的学习；
 - [InterviewExperienceCollections](./InterviewExperienceCollections)：搜集到的各家大厂面经、以及我自己的面试过程整理与复盘；
 - [GeneralArtificialIntelligenceLearning](./GeneralArtificalIntelligenceLearning)：对泛人工智能技术的基础学习；
 - [HadoopLearning](./HadoopLearning/)：对于 Hadoop 的了解学习；
