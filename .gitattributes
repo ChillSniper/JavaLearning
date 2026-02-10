@@ -1,11 +1,53 @@
+# 只统计 Java、Go、Markdown，其他全部隐藏
+
+# 允许统计的语言（显式声明）
+*.java linguist-detectable=true
+*.go linguist-detectable=true
+*.md linguist-detectable=true
+*.markdown linguist-detectable=true
+
+# 隐藏所有前端相关
 *.js linguist-detectable=false
 *.jsx linguist-detectable=false
-# *.vue linguist-detectable=false
+*.ts linguist-detectable=false
+*.tsx linguist-detectable=false
+*.vue linguist-detectable=false
 *.mjs linguist-detectable=false
 *.cjs linguist-detectable=false
+*.css linguist-detectable=false
+*.scss linguist-detectable=false
+*.sass linguist-detectable=false
+*.less linguist-detectable=false
+*.html linguist-detectable=false
+*.htm linguist-detectable=false
 
-# *.vue linguist-language=Vue
+# 隐藏配置文件
+*.json linguist-detectable=false
+*.yaml linguist-detectable=false
+*.yml linguist-detectable=false
+*.xml linguist-detectable=false
+*.toml linguist-detectable=false
+*.ini linguist-detectable=false
 
-# dist/* linguist-vendored
-# build/* linguist-vendored
-# node_modules/* linguist-vendored
+# 隐藏脚本语言
+*.sh linguist-detectable=false
+*.bash linguist-detectable=false
+*.py linguist-detectable=false
+*.rb linguist-detectable=false
+*.php linguist-detectable=false
+
+# 隐藏其他常见语言
+*.c linguist-detectable=false
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cs linguist-detectable=false
+*.rs linguist-detectable=false
+*.kt linguist-detectable=false
+*.swift linguist-detectable=false
+
+# 标记构建产物和依赖为第三方代码（不统计）
+dist/* linguist-vendored
+build/* linguist-vendored
+target/* linguist-vendored
+node_modules/* linguist-vendored
+vendor/* linguist-vendored
