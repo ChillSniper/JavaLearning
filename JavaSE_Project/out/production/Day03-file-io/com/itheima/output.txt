@@ -1,4 +1,0 @@
-This is a test
-This is another test
-测试java
-av

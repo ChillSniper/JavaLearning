@@ -1,0 +1,99 @@
+# Java 编译文件
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+out/
+build/
+bin/
+
+# Java 日志文件
+*.log
+
+# Java 包文件
+*.zip
+*.tar.gz
+*.rar
+
+# IDE 相关文件
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+## Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+## VS Code
+.vscode/
+*.code-workspace
+
+## NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# 操作系统文件
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Linux
+*~
+.directory
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# Node.js (如果有前端项目)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 环境配置文件（含敏感信息）
+.env
+.env.local
+application-local.properties
+application-dev.properties
+
+# 其他
+*.bak
+*.orig
