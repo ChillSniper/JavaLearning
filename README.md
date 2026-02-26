@@ -30,7 +30,6 @@ Written on 2025.07.06.
 - [RedisNote](./RedisNote)：学习 Redis 时做的一些笔记，并同时存储了做黑马点评项目时的一些看法；
 - [SeveralValuableNotesOrBooks](./SeveralValuableNotesOrBookss)：一些高质量的技术书籍和指导手册；
 - [SkyTakeoutProjectNote](./SkyTakeoutProjectNote)：如其名，仿写美团外卖的基础项目所做的一些笔记；
-- [SSM_Lab](./SSM_Lab)：学习 SpringBoot 框架时，做的一些 ToyProject；
 - [SSM-Spring-SpringBoot](./SSM-Spring-SpringBoot)：学习 SpringBoot 框架时，做的一些学习笔记；
 
 ## 实习进展
