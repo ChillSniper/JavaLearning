@@ -1,0 +1,313 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000' width='1600' height='1000' role='img' aria-labelledby='scene-title scene-desc'>
+  <title id='scene-title'>鹈鹕在飞机机翼上骑自行车并喊出二十一</title>
+  <desc id='scene-desc'>孙悟空驾驶大型飞机，鹈鹕展开翅膀托着北极熊，秦始皇骑在熊背上拧螺丝。</desc>
+
+  <defs>
+    <linearGradient id='sky' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0' stop-color='#238bd2'/>
+      <stop offset='0.48' stop-color='#79c9ee'/>
+      <stop offset='1' stop-color='#eaf8ff'/>
+    </linearGradient>
+    <radialGradient id='sunGlow' cx='50%' cy='50%' r='50%'>
+      <stop offset='0' stop-color='#fff9c8' stop-opacity='0.95'/>
+      <stop offset='0.42' stop-color='#ffe78b' stop-opacity='0.42'/>
+      <stop offset='1' stop-color='#fff2aa' stop-opacity='0'/>
+    </radialGradient>
+    <linearGradient id='fuselage' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0' stop-color='#f9fdff'/>
+      <stop offset='0.42' stop-color='#dfeaf1'/>
+      <stop offset='0.7' stop-color='#aebeca'/>
+      <stop offset='1' stop-color='#6f8495'/>
+    </linearGradient>
+    <linearGradient id='wing' x1='0.1' y1='0' x2='0.8' y2='1'>
+      <stop offset='0' stop-color='#f8fcff'/>
+      <stop offset='0.42' stop-color='#d5e2ea'/>
+      <stop offset='0.78' stop-color='#9fb2bf'/>
+      <stop offset='1' stop-color='#718795'/>
+    </linearGradient>
+    <linearGradient id='wingEdge' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0' stop-color='#8ea3b1'/>
+      <stop offset='1' stop-color='#405665'/>
+    </linearGradient>
+    <linearGradient id='cockpitGlass' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#c6f4ff'/>
+      <stop offset='0.45' stop-color='#347391'/>
+      <stop offset='1' stop-color='#102d43'/>
+    </linearGradient>
+    <linearGradient id='gold' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#fff1a6'/>
+      <stop offset='0.28' stop-color='#f7c93f'/>
+      <stop offset='0.62' stop-color='#b97a08'/>
+      <stop offset='1' stop-color='#ffda5a'/>
+    </linearGradient>
+    <linearGradient id='redMetal' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#ff735f'/>
+      <stop offset='0.5' stop-color='#c92f35'/>
+      <stop offset='1' stop-color='#761823'/>
+    </linearGradient>
+    <linearGradient id='pelicanBody' x1='0' y1='0' x2='0.7' y2='1'>
+      <stop offset='0' stop-color='#fffdf1'/>
+      <stop offset='0.65' stop-color='#e7e1c8'/>
+      <stop offset='1' stop-color='#b8b29b'/>
+    </linearGradient>
+    <linearGradient id='pelicanWing' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#fffef5'/>
+      <stop offset='0.52' stop-color='#ddd7bd'/>
+      <stop offset='1' stop-color='#8e8b7e'/>
+    </linearGradient>
+    <linearGradient id='beak' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#ffcf5d'/>
+      <stop offset='0.62' stop-color='#ef8736'/>
+      <stop offset='1' stop-color='#b53e2c'/>
+    </linearGradient>
+    <linearGradient id='bearFur' x1='0' y1='0' x2='0.8' y2='1'>
+      <stop offset='0' stop-color='#ffffff'/>
+      <stop offset='0.58' stop-color='#eaf4f4'/>
+      <stop offset='1' stop-color='#a7c5cc'/>
+    </linearGradient>
+    <radialGradient id='wheelRubber' cx='46%' cy='42%' r='58%'>
+      <stop offset='0.72' stop-color='#263441'/>
+      <stop offset='0.86' stop-color='#101820'/>
+      <stop offset='1' stop-color='#030608'/>
+    </radialGradient>
+    <radialGradient id='engine' cx='42%' cy='38%' r='62%'>
+      <stop offset='0' stop-color='#536b79'/>
+      <stop offset='0.48' stop-color='#213541'/>
+      <stop offset='1' stop-color='#061018'/>
+    </radialGradient>
+    <pattern id='rivets' width='34' height='22' patternUnits='userSpaceOnUse'>
+      <circle cx='6' cy='7' r='1.7' fill='#6f8795' opacity='0.48'/>
+      <circle cx='27' cy='16' r='1.3' fill='#ffffff' opacity='0.6'/>
+    </pattern>
+    <filter id='shadow' x='-40%' y='-40%' width='180%' height='190%'>
+      <feGaussianBlur in='SourceAlpha' stdDeviation='12'/>
+      <feOffset dy='12'/>
+      <feColorMatrix values='0 0 0 0 0.03 0 0 0 0 0.12 0 0 0 0 0.18 0 0 0 0.35 0'/>
+      <feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge>
+    </filter>
+    <filter id='smallShadow' x='-50%' y='-50%' width='200%' height='220%'>
+      <feGaussianBlur in='SourceAlpha' stdDeviation='4'/>
+      <feOffset dy='5'/>
+      <feColorMatrix values='0 0 0 0 0.05 0 0 0 0 0.09 0 0 0 0 0.13 0 0 0 0.38 0'/>
+      <feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge>
+    </filter>
+    <filter id='bubbleShadow' x='-30%' y='-30%' width='170%' height='180%'>
+      <feGaussianBlur in='SourceAlpha' stdDeviation='7'/>
+      <feOffset dy='7'/>
+      <feColorMatrix values='0 0 0 0 0.05 0 0 0 0 0.13 0 0 0 0 0.2 0 0 0 0.3 0'/>
+      <feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge>
+    </filter>
+    <clipPath id='cockpitClip'><path d='M1205 509 C1275 466 1385 466 1454 514 L1390 566 L1218 560 Z'/></clipPath>
+    <clipPath id='bearBodyClip'><ellipse cx='767' cy='278' rx='193' ry='87'/></clipPath>
+  </defs>
+
+  <rect width='1600' height='1000' fill='url(#sky)'/>
+  <circle cx='1320' cy='130' r='215' fill='url(#sunGlow)'/>
+  <circle cx='1320' cy='130' r='54' fill='#fff3a7' opacity='0.84'/>
+
+  <g fill='#ffffff' opacity='0.83'>
+    <g transform='translate(90 122)'>
+      <ellipse cx='82' cy='44' rx='79' ry='33'/><ellipse cx='151' cy='38' rx='92' ry='43'/><ellipse cx='221' cy='54' rx='70' ry='30'/><ellipse cx='139' cy='67' rx='153' ry='34'/>
+      <animateTransform attributeName='transform' type='translate' values='90 122;130 122;90 122' dur='18s' repeatCount='indefinite'/>
+    </g>
+    <g transform='translate(1120 330)' opacity='0.68'>
+      <ellipse cx='75' cy='42' rx='73' ry='29'/><ellipse cx='140' cy='32' rx='84' ry='39'/><ellipse cx='209' cy='46' rx='67' ry='28'/><ellipse cx='139' cy='61' rx='145' ry='31'/>
+      <animateTransform attributeName='transform' type='translate' values='1120 330;1070 330;1120 330' dur='22s' repeatCount='indefinite'/>
+    </g>
+    <g transform='translate(250 430)' opacity='0.42'>
+      <ellipse cx='68' cy='35' rx='67' ry='27'/><ellipse cx='128' cy='29' rx='76' ry='34'/><ellipse cx='189' cy='42' rx='61' ry='25'/><ellipse cx='127' cy='54' rx='131' ry='27'/>
+    </g>
+  </g>
+
+  <g opacity='0.48' fill='none' stroke='#ffffff' stroke-linecap='round'>
+    <path d='M70 280 C260 230 410 250 563 205' stroke-width='5'/><path d='M42 309 C233 263 389 279 536 239' stroke-width='2'/><path d='M1264 266 C1390 222 1505 230 1584 211' stroke-width='4'/>
+  </g>
+
+  <g opacity='0.35'>
+    <path d='M0 758 C145 679 276 694 397 754 C518 814 664 824 800 751 C936 678 1091 687 1212 750 C1334 813 1470 807 1600 723 L1600 1000 L0 1000 Z' fill='#7298ac'/>
+    <path d='M0 814 C180 747 314 773 450 830 C596 890 746 877 890 824 C1027 774 1184 786 1314 842 C1420 887 1528 883 1600 844 L1600 1000 L0 1000 Z' fill='#9fbac6'/>
+  </g>
+  <g id='airplane' filter='url(#shadow)'>
+    <path d='M152 563 C325 525 535 502 790 498 L1291 492 C1381 491 1461 518 1526 574 C1549 594 1544 623 1518 639 C1447 683 1356 707 1248 708 L431 701 C314 700 220 669 149 617 C126 600 126 573 152 563 Z' fill='url(#fuselage)' stroke='#4c6575' stroke-width='6'/>
+    <path d='M186 620 C446 652 951 659 1266 647 C1378 643 1456 622 1527 585 C1544 606 1537 626 1518 639 C1447 683 1356 707 1248 708 L431 701 C314 700 220 669 149 617 Z' fill='#6f8796' opacity='0.52'/>
+    <path d='M330 537 L170 385 L105 388 L185 577 Z' fill='url(#fuselage)' stroke='#4c6575' stroke-width='6'/>
+    <path d='M190 571 L76 526 L64 557 L205 627 Z' fill='#c6d7df' stroke='#4c6575' stroke-width='5'/>
+    <path d='M328 535 L220 437 L186 445 L246 579 Z' fill='#7d94a2' opacity='0.36'/>
+    <path d='M157 563 C485 526 1055 520 1430 548' fill='none' stroke='#ffffff' stroke-width='8' opacity='0.67'/>
+    <path d='M227 622 C541 646 1043 649 1341 625' fill='none' stroke='#36576e' stroke-width='7' opacity='0.76'/>
+    <path d='M235 638 C537 662 1033 667 1323 643' fill='none' stroke='#d4423f' stroke-width='8'/>
+    <path d='M235 651 C535 676 1026 680 1309 657' fill='none' stroke='#f6d253' stroke-width='3'/>
+    <path d='M327 554 C596 527 1011 523 1235 535 L1235 568 C996 555 598 562 338 585 Z' fill='url(#rivets)' opacity='0.72'/>
+
+    <g fill='url(#cockpitGlass)' stroke='#17384c' stroke-width='6'>
+      <path d='M1205 509 C1260 478 1316 467 1369 477 L1342 550 L1218 560 Z'/>
+      <path d='M1377 480 C1411 486 1438 498 1454 514 L1390 566 L1353 551 Z'/>
+    </g>
+    <path d='M1240 516 C1275 496 1307 490 1337 491' fill='none' stroke='#e8fbff' stroke-width='8' opacity='0.64'/>
+
+    <g clip-path='url(#cockpitClip)' id='sun-wukong'>
+      <path d='M1260 575 Q1271 516 1325 511 Q1376 517 1386 575 Z' fill='#b7292b'/>
+      <path d='M1282 555 L1304 501 L1350 501 L1371 555 Z' fill='#f2b637'/>
+      <circle cx='1327' cy='505' r='47' fill='#c98442' stroke='#66331e' stroke-width='5'/>
+      <path d='M1293 477 Q1326 443 1360 478 L1352 503 Q1327 487 1301 504 Z' fill='#6e3b23'/>
+      <path d='M1294 484 Q1270 493 1278 522 Q1286 540 1306 529' fill='#a96134' stroke='#66331e' stroke-width='4'/>
+      <path d='M1360 484 Q1383 494 1375 522 Q1366 539 1348 529' fill='#a96134' stroke='#66331e' stroke-width='4'/>
+      <ellipse cx='1327' cy='511' rx='27' ry='30' fill='#e7ae68'/>
+      <ellipse cx='1317' cy='503' rx='5' ry='8' fill='#1d2528'/><ellipse cx='1338' cy='503' rx='5' ry='8' fill='#1d2528'/>
+      <path d='M1316 527 Q1327 536 1339 526' fill='none' stroke='#59301f' stroke-width='4' stroke-linecap='round'/>
+      <path d='M1284 474 Q1326 455 1370 476 L1366 492 Q1327 477 1288 492 Z' fill='url(#gold)' stroke='#854f08' stroke-width='4'/>
+      <path d='M1293 471 L1298 451 L1308 467 L1320 442 L1330 465 L1342 441 L1351 468 L1362 451 L1366 474 Z' fill='url(#gold)' stroke='#854f08' stroke-width='4'/>
+      <path d='M1372 548 Q1402 542 1423 559' fill='none' stroke='#c98442' stroke-width='18' stroke-linecap='round'/>
+      <circle cx='1428' cy='561' r='12' fill='#e7ae68' stroke='#66331e' stroke-width='4'/>
+      <path d='M1394 574 L1443 574 L1443 590 L1392 590 Z' fill='#233d4e'/>
+      <circle cx='1406' cy='582' r='5' fill='#76d4e9'/><circle cx='1425' cy='582' r='5' fill='#efc84a'/>
+    </g>
+
+    <g fill='#31556d' stroke='#d9f3ff' stroke-width='3'>
+      <ellipse cx='439' cy='580' rx='25' ry='18'/><ellipse cx='508' cy='572' rx='25' ry='18'/><ellipse cx='577' cy='565' rx='25' ry='18'/><ellipse cx='646' cy='559' rx='25' ry='18'/><ellipse cx='715' cy='555' rx='25' ry='18'/><ellipse cx='784' cy='551' rx='25' ry='18'/><ellipse cx='853' cy='549' rx='25' ry='18'/><ellipse cx='922' cy='547' rx='25' ry='18'/><ellipse cx='991' cy='547' rx='25' ry='18'/><ellipse cx='1060' cy='547' rx='25' ry='18'/><ellipse cx='1129' cy='549' rx='25' ry='18'/>
+    </g>
+    <g fill='#b9ccd6' stroke='#617986' stroke-width='3'><path d='M358 615 h74 v61 h-74 Z'/><path d='M1100 606 h75 v70 h-75 Z'/></g>
+    <g fill='#788f9c'>
+      <circle cx='374' cy='632' r='3'/><circle cx='416' cy='632' r='3'/><circle cx='374' cy='659' r='3'/><circle cx='416' cy='659' r='3'/>
+      <circle cx='1116' cy='623' r='3'/><circle cx='1158' cy='623' r='3'/><circle cx='1116' cy='657' r='3'/><circle cx='1158' cy='657' r='3'/>
+    </g>
+  </g>
+
+  <g id='main-wing' filter='url(#shadow)'>
+    <path d='M588 596 L969 587 L1515 899 L89 899 Z' fill='url(#wing)' stroke='#4c6371' stroke-width='7'/>
+    <path d='M91 899 L1515 899 L1463 940 L134 940 Z' fill='url(#wingEdge)' stroke='#405665' stroke-width='6'/>
+    <path d='M593 611 L959 603 L1417 866 L171 866 Z' fill='url(#rivets)' opacity='0.72'/>
+    <path d='M190 850 C487 824 948 822 1377 849' fill='none' stroke='#ffffff' stroke-width='8' opacity='0.66'/>
+    <path d='M247 884 L1366 884' stroke='#7e939f' stroke-width='4' stroke-dasharray='10 18'/>
+    <path d='M365 824 L463 824' stroke='#e2b326' stroke-width='7' stroke-linecap='round'/><path d='M1168 824 L1266 824' stroke='#e2b326' stroke-width='7' stroke-linecap='round'/>
+    <path d='M760 632 L809 632 L817 853 L704 853 Z' fill='#9eb0ba' opacity='0.28'/>
+    <path d='M748 647 L795 646 M732 686 L805 684 M716 733 L813 731 M701 784 L819 782' stroke='#647b88' stroke-width='3'/>
+    <circle cx='782' cy='644' r='7' fill='#d5a827' stroke='#735d21' stroke-width='3'/>
+  </g>
+
+  <g id='engines' filter='url(#smallShadow)'>
+    <g transform='translate(1228 790) rotate(11)'>
+      <path d='M-92 -32 C-46 -76 79 -68 114 -21 L104 50 C56 83 -52 78 -91 39 Z' fill='url(#fuselage)' stroke='#4d6472' stroke-width='6'/>
+      <ellipse cx='-85' cy='4' rx='54' ry='57' fill='#6d8491' stroke='#405866' stroke-width='6'/><ellipse cx='-85' cy='4' rx='41' ry='44' fill='url(#engine)'/>
+      <g stroke='#849ca8' stroke-width='7' stroke-linecap='round'><path d='M-85 4 L-85 -32'/><path d='M-85 4 L-58 -21'/><path d='M-85 4 L-48 4'/><path d='M-85 4 L-59 29'/><path d='M-85 4 L-85 40'/><path d='M-85 4 L-112 30'/><path d='M-85 4 L-122 4'/><path d='M-85 4 L-112 -22'/></g>
+      <circle cx='-85' cy='4' r='12' fill='#d8b33a' stroke='#5e4b18' stroke-width='4'/><path d='M-5 -59 L42 -102 L70 -96 L49 -49 Z' fill='#859aa6' stroke='#4d6472' stroke-width='5'/>
+    </g>
+    <g transform='translate(366 826) scale(0.74) rotate(-7)'>
+      <path d='M-92 -32 C-46 -76 79 -68 114 -21 L104 50 C56 83 -52 78 -91 39 Z' fill='url(#fuselage)' stroke='#4d6472' stroke-width='6'/>
+      <ellipse cx='-85' cy='4' rx='54' ry='57' fill='#6d8491' stroke='#405866' stroke-width='6'/><ellipse cx='-85' cy='4' rx='41' ry='44' fill='url(#engine)'/>
+      <g stroke='#849ca8' stroke-width='7' stroke-linecap='round'><path d='M-85 4 L-85 -32'/><path d='M-85 4 L-58 -21'/><path d='M-85 4 L-48 4'/><path d='M-85 4 L-59 29'/><path d='M-85 4 L-85 40'/><path d='M-85 4 L-112 30'/><path d='M-85 4 L-122 4'/><path d='M-85 4 L-112 -22'/></g>
+      <circle cx='-85' cy='4' r='12' fill='#d8b33a' stroke='#5e4b18' stroke-width='4'/><path d='M-5 -59 L42 -102 L70 -96 L49 -49 Z' fill='#859aa6' stroke='#4d6472' stroke-width='5'/>
+    </g>
+  </g>
+
+  <ellipse cx='801' cy='791' rx='349' ry='39' fill='#183746' opacity='0.25'><animate attributeName='rx' values='349;330;349' dur='1.6s' repeatCount='indefinite'/></ellipse>
+  <g id='bicycle' filter='url(#smallShadow)'>
+    <g id='rear-wheel' transform='translate(566 751)'>
+      <circle r='99' fill='none' stroke='url(#wheelRubber)' stroke-width='21'/><circle r='81' fill='#d9e9ee' fill-opacity='0.16' stroke='#d2e2e7' stroke-width='5'/>
+      <g stroke='#758b96' stroke-width='3'><path d='M0 -80 V80'/><path d='M-80 0 H80'/><path d='M-57 -57 L57 57'/><path d='M57 -57 L-57 57'/><path d='M-30 -74 L30 74'/><path d='M74 -30 L-74 30'/><path d='M30 -74 L-30 74'/><path d='M74 30 L-74 -30'/></g>
+      <circle r='15' fill='url(#gold)' stroke='#684b0d' stroke-width='5'/><animateTransform attributeName='transform' type='rotate' values='0 0 0;360 0 0' additive='sum' dur='1.6s' repeatCount='indefinite'/>
+    </g>
+    <g id='front-wheel' transform='translate(1035 751)'>
+      <circle r='99' fill='none' stroke='url(#wheelRubber)' stroke-width='21'/><circle r='81' fill='#d9e9ee' fill-opacity='0.16' stroke='#d2e2e7' stroke-width='5'/>
+      <g stroke='#758b96' stroke-width='3'><path d='M0 -80 V80'/><path d='M-80 0 H80'/><path d='M-57 -57 L57 57'/><path d='M57 -57 L-57 57'/><path d='M-30 -74 L30 74'/><path d='M74 -30 L-74 30'/><path d='M30 -74 L-30 74'/><path d='M74 30 L-74 -30'/></g>
+      <circle r='15' fill='url(#gold)' stroke='#684b0d' stroke-width='5'/><animateTransform attributeName='transform' type='rotate' values='0 0 0;360 0 0' additive='sum' dur='1.6s' repeatCount='indefinite'/>
+    </g>
+    <g fill='none' stroke='url(#redMetal)' stroke-width='20' stroke-linecap='round' stroke-linejoin='round'>
+      <path d='M566 751 L747 568 L828 751 Z'/><path d='M747 568 L906 568 L828 751'/><path d='M906 568 L1035 751'/><path d='M828 751 L1035 751'/>
+    </g>
+    <g fill='none' stroke='#ffd75d' stroke-width='5' opacity='0.8'><path d='M579 738 L747 583 L811 735'/><path d='M764 579 L889 579 L837 733'/></g>
+    <path d='M730 552 L786 552' stroke='#2d3740' stroke-width='18' stroke-linecap='round'/>
+    <path d='M899 568 L930 500 L988 491' fill='none' stroke='#8d2630' stroke-width='17' stroke-linecap='round' stroke-linejoin='round'/><path d='M964 478 L1012 492' stroke='#293640' stroke-width='15' stroke-linecap='round'/>
+    <circle cx='828' cy='751' r='28' fill='#293640' stroke='url(#gold)' stroke-width='8'/><path d='M828 751 L873 720' stroke='#dfb833' stroke-width='9' stroke-linecap='round'/><circle cx='875' cy='719' r='9' fill='#273541'/>
+    <path d='M828 751 L785 781' stroke='#dfb833' stroke-width='9' stroke-linecap='round'/><circle cx='783' cy='783' r='9' fill='#273541'/>
+    <path d='M566 751 Q698 772 828 751' fill='none' stroke='#26333d' stroke-width='6' stroke-dasharray='7 7'/><path d='M566 751 Q699 730 828 751' fill='none' stroke='#26333d' stroke-width='4'/>
+    <path d='M1035 751 L925 505' stroke='#b83238' stroke-width='13' stroke-linecap='round'/><path d='M1010 492 L1054 487' stroke='#283640' stroke-width='13' stroke-linecap='round'/>
+  </g>
+
+  <g id='pelican-rider' filter='url(#smallShadow)'>
+    <g id='wings'>
+      <path d='M760 455 C661 393 567 336 449 326 C390 321 345 343 319 376 C387 397 444 427 506 468 C573 512 652 532 750 515 Z' fill='url(#pelicanWing)' stroke='#5f625d' stroke-width='7'/>
+      <path d='M835 448 C918 376 1012 327 1117 324 C1180 322 1221 346 1246 381 C1181 396 1126 426 1069 467 C1006 512 926 530 839 507 Z' fill='url(#pelicanWing)' stroke='#5f625d' stroke-width='7'/>
+      <g fill='none' stroke='#8d8b7e' stroke-width='5' stroke-linecap='round' opacity='0.8'>
+        <path d='M706 472 C614 433 528 374 415 354'/><path d='M692 491 C595 472 500 424 382 386'/><path d='M676 509 C579 507 493 476 422 438'/>
+        <path d='M884 472 C961 427 1046 374 1165 353'/><path d='M898 492 C995 469 1090 421 1192 385'/><path d='M914 508 C1004 502 1090 470 1161 435'/>
+      </g>
+      <g fill='#f7f4e6' stroke='#6c6c65' stroke-width='4'>
+        <path d='M445 326 Q390 299 346 323 Q386 346 432 359 Z'/><path d='M391 348 Q337 331 305 363 Q351 377 405 383 Z'/>
+        <path d='M1146 326 Q1201 298 1243 326 Q1204 348 1158 360 Z'/><path d='M1198 350 Q1252 334 1283 367 Q1236 380 1184 385 Z'/>
+      </g>
+      <animateTransform attributeName='transform' type='rotate' values='0 792 460;-2 792 460;0 792 460;2 792 460;0 792 460' dur='3.2s' repeatCount='indefinite'/>
+    </g>
+
+    <ellipse cx='780' cy='505' rx='148' ry='115' fill='url(#pelicanBody)' stroke='#5f625d' stroke-width='7'/>
+    <path d='M702 477 C738 442 828 434 882 469 C847 489 816 504 780 509 C747 507 725 496 702 477 Z' fill='#c8c3af' opacity='0.7'/>
+    <path d='M851 467 C878 427 880 385 887 340 C896 282 947 271 984 305 C1019 337 1011 383 976 412 C946 437 934 468 924 502 Z' fill='url(#pelicanBody)' stroke='#5f625d' stroke-width='7'/>
+    <circle cx='973' cy='326' r='62' fill='#f7f3df' stroke='#5f625d' stroke-width='7'/>
+    <path d='M962 330 C1019 318 1102 326 1178 359 C1100 386 1027 387 953 365 Z' fill='url(#beak)' stroke='#7d3e2e' stroke-width='7'/>
+    <path d='M957 353 C1020 358 1093 360 1161 360' fill='none' stroke='#8e3b2d' stroke-width='5'/><path d='M988 351 C1018 370 1066 379 1111 374 C1082 412 1015 416 970 372 Z' fill='#f3aa6d' opacity='0.7'/>
+    <circle cx='983' cy='315' r='15' fill='#f0bb33' stroke='#36362f' stroke-width='5'/><circle cx='987' cy='313' r='6' fill='#171a1b'/><circle cx='990' cy='309' r='2.5' fill='#ffffff'/>
+    <path d='M934 288 Q972 268 1009 293' fill='none' stroke='#7d7566' stroke-width='5' stroke-linecap='round'/>
+    <g fill='#8a8b82'><path d='M733 565 Q690 593 679 635 Q718 614 756 584 Z'/><path d='M769 581 Q742 624 747 652 Q777 620 802 590 Z'/><path d='M805 584 Q796 624 811 651 Q831 617 841 580 Z'/></g>
+
+    <g id='pelican-legs' fill='none' stroke='#d97735' stroke-width='18' stroke-linecap='round' stroke-linejoin='round'>
+      <path d='M746 584 L780 666 L874 719'/><path d='M824 586 L850 649 L785 781'/><path d='M866 716 L892 728' stroke-width='13'/><path d='M777 780 L758 792' stroke-width='13'/>
+      <animateTransform attributeName='transform' type='rotate' values='0 815 686;3 815 686;0 815 686;-3 815 686;0 815 686' dur='1.6s' repeatCount='indefinite'/>
+    </g>
+    <path d='M865 459 Q915 480 943 517' fill='none' stroke='#f7f3df' stroke-width='30' stroke-linecap='round'/><path d='M932 512 Q957 510 974 491' fill='none' stroke='#d97735' stroke-width='12' stroke-linecap='round'/>
+    <path d='M701 460 Q654 489 631 531' fill='none' stroke='#f7f3df' stroke-width='30' stroke-linecap='round'/><path d='M625 528 Q608 531 594 515' fill='none' stroke='#d97735' stroke-width='12' stroke-linecap='round'/>
+    <path d='M918 503 L957 494' stroke='#283640' stroke-width='10' stroke-linecap='round'/><path d='M633 523 L609 512' stroke='#283640' stroke-width='10' stroke-linecap='round'/>
+    <animateTransform attributeName='transform' type='translate' values='0 0;0 -5;0 0;0 4;0 0' dur='1.6s' repeatCount='indefinite'/>
+  </g>
+  <g id='polar-bear' filter='url(#smallShadow)'>
+    <ellipse cx='768' cy='285' rx='194' ry='88' fill='url(#bearFur)' stroke='#54717a' stroke-width='7'/>
+    <g clip-path='url(#bearBodyClip)' opacity='0.42' fill='#8fb4bd'><ellipse cx='721' cy='340' rx='160' ry='53'/><path d='M614 230 C693 275 814 292 925 244 L942 340 L588 349 Z'/></g>
+    <circle cx='576' cy='259' r='77' fill='url(#bearFur)' stroke='#54717a' stroke-width='7'/>
+    <circle cx='533' cy='209' r='29' fill='#dbecee' stroke='#54717a' stroke-width='6'/><circle cx='617' cy='207' r='28' fill='#dbecee' stroke='#54717a' stroke-width='6'/>
+    <circle cx='533' cy='210' r='13' fill='#789ba5'/><circle cx='617' cy='208' r='12' fill='#789ba5'/>
+    <ellipse cx='545' cy='272' rx='49' ry='38' fill='#f9ffff'/><ellipse cx='524' cy='255' rx='8' ry='11' fill='#233138'/><ellipse cx='584' cy='249' rx='8' ry='11' fill='#233138'/>
+    <circle cx='527' cy='251' r='3' fill='#ffffff'/><circle cx='587' cy='245' r='3' fill='#ffffff'/><ellipse cx='541' cy='273' rx='18' ry='13' fill='#24323a'/>
+    <path d='M542 285 Q549 298 565 299' fill='none' stroke='#334851' stroke-width='4' stroke-linecap='round'/><path d='M532 232 Q545 225 558 232' fill='none' stroke='#6d8e97' stroke-width='4' stroke-linecap='round'/><path d='M575 226 Q588 217 601 224' fill='none' stroke='#6d8e97' stroke-width='4' stroke-linecap='round'/>
+    <path d='M616 322 Q574 363 533 406 Q566 427 608 399 L684 333 Z' fill='url(#bearFur)' stroke='#54717a' stroke-width='7'/><path d='M892 313 Q934 341 984 383 Q962 420 920 396 L840 326 Z' fill='url(#bearFur)' stroke='#54717a' stroke-width='7'/>
+    <path d='M530 405 Q548 388 571 407' fill='none' stroke='#38515b' stroke-width='5'/><path d='M923 397 Q944 381 964 401' fill='none' stroke='#38515b' stroke-width='5'/>
+    <path d='M658 238 Q768 198 875 235' fill='none' stroke='#bd2931' stroke-width='19' stroke-linecap='round'/><path d='M674 241 Q766 211 861 241' fill='none' stroke='#f1c04a' stroke-width='5' stroke-linecap='round'/>
+    <rect x='815' y='216' width='104' height='68' rx='10' fill='#5d6f77' stroke='#26353b' stroke-width='6'/><rect x='827' y='228' width='80' height='44' rx='6' fill='url(#gold)' stroke='#82590b' stroke-width='4'/>
+    <circle cx='847' cy='250' r='8' fill='#50575a' stroke='#263238' stroke-width='3'/><path d='M842 250 H852 M847 245 V255' stroke='#ecf4f5' stroke-width='2.5'/>
+    <circle cx='889' cy='250' r='8' fill='#50575a' stroke='#263238' stroke-width='3'/><path d='M884 250 H894 M889 245 V255' stroke='#ecf4f5' stroke-width='2.5'/>
+    <animateTransform attributeName='transform' type='translate' values='0 0;0 -3;0 0;0 2;0 0' dur='2.4s' repeatCount='indefinite'/>
+  </g>
+
+  <g id='qin-shihuang' filter='url(#smallShadow)'>
+    <path d='M700 128 Q759 95 822 128 L855 244 Q779 270 676 241 Z' fill='#242324' stroke='#0f1010' stroke-width='7'/>
+    <path d='M726 133 Q763 114 802 132 L824 235 Q776 248 706 232 Z' fill='#682a28' stroke='#d7a836' stroke-width='5'/>
+    <path d='M745 139 L735 228 M783 135 L793 236' stroke='#e7bd49' stroke-width='8'/><path d='M715 159 Q763 185 815 157' fill='none' stroke='#e7bd49' stroke-width='6'/><path d='M710 202 Q762 225 824 197' fill='none' stroke='#e7bd49' stroke-width='6'/>
+    <path d='M735 244 L715 301 L762 291 L780 246 Z' fill='#242324' stroke='#0f1010' stroke-width='6'/><path d='M789 244 L805 298 L851 291 L824 238 Z' fill='#242324' stroke='#0f1010' stroke-width='6'/>
+    <path d='M717 299 Q738 284 764 292' fill='none' stroke='#d8a93f' stroke-width='8' stroke-linecap='round'/><path d='M806 297 Q827 283 852 291' fill='none' stroke='#d8a93f' stroke-width='8' stroke-linecap='round'/>
+    <circle cx='762' cy='91' r='43' fill='#d59a67' stroke='#5d3528' stroke-width='6'/><path d='M728 89 Q762 55 797 89 L790 111 Q764 95 735 112 Z' fill='#15171a'/><path d='M735 110 Q762 127 790 109 Q784 145 763 151 Q741 143 735 110 Z' fill='#161717'/>
+    <path d='M738 80 Q750 74 758 81 M769 81 Q781 74 788 82' fill='none' stroke='#563027' stroke-width='4' stroke-linecap='round'/><ellipse cx='749' cy='91' rx='4.5' ry='6' fill='#17191a'/><ellipse cx='778' cy='91' rx='4.5' ry='6' fill='#17191a'/><path d='M753 110 Q763 116 774 109' fill='none' stroke='#6d382d' stroke-width='3.5'/>
+    <path d='M723 62 L803 62 L812 75 L713 75 Z' fill='#17191b' stroke='#d5a435' stroke-width='5'/><path d='M730 59 L735 31 L744 57 L755 28 L765 56 L777 28 L786 58 L795 33 L800 61 Z' fill='#17191b' stroke='#d5a435' stroke-width='5'/>
+    <g stroke='#d6a839' stroke-width='3'><path d='M730 74 V105'/><path d='M741 74 V111'/><path d='M752 74 V105'/><path d='M763 74 V112'/><path d='M774 74 V106'/><path d='M785 74 V110'/><path d='M796 74 V102'/></g>
+    <g fill='#45a5b5'><circle cx='730' cy='105' r='4'/><circle cx='741' cy='111' r='4'/><circle cx='752' cy='105' r='4'/><circle cx='763' cy='112' r='4'/><circle cx='774' cy='106' r='4'/><circle cx='785' cy='110' r='4'/><circle cx='796' cy='102' r='4'/></g>
+    <path d='M812 151 Q850 174 871 215' fill='none' stroke='#682a28' stroke-width='24' stroke-linecap='round'/><path d='M872 215 L851 245' stroke='#d59a67' stroke-width='16' stroke-linecap='round'/><circle cx='849' cy='246' r='12' fill='#d59a67' stroke='#5d3528' stroke-width='4'/>
+    <path d='M690 157 Q655 181 644 221' fill='none' stroke='#682a28' stroke-width='24' stroke-linecap='round'/><path d='M645 220 L667 245' stroke='#d59a67' stroke-width='16' stroke-linecap='round'/><circle cx='669' cy='246' r='12' fill='#d59a67' stroke='#5d3528' stroke-width='4'/>
+    <g id='screwdriver' transform='rotate(17 850 245)'>
+      <rect x='842' y='214' width='16' height='62' rx='7' fill='#d54a3f' stroke='#6f2522' stroke-width='4'/><path d='M850 275 V303' stroke='#b7c8cd' stroke-width='7' stroke-linecap='round'/><path d='M843 303 H857' stroke='#46565d' stroke-width='5' stroke-linecap='round'/>
+      <animateTransform attributeName='transform' type='rotate' values='17 850 245;27 850 245;17 850 245' dur='0.6s' repeatCount='indefinite'/>
+    </g>
+    <g fill='none' stroke='#f8df78' stroke-width='5' stroke-linecap='round'><path d='M876 278 L901 265'/><path d='M881 291 L910 292'/><path d='M873 303 L897 319'/></g>
+    <animateTransform attributeName='transform' type='translate' values='0 0;0 -2;0 0;0 2;0 0' dur='2.4s' repeatCount='indefinite'/>
+  </g>
+
+  <g id='speech-bubble' filter='url(#bubbleShadow)'>
+    <path d='M1126 95 C1196 38 1369 28 1461 80 C1531 119 1542 211 1494 265 C1447 319 1300 331 1198 290 C1154 272 1122 239 1115 205 C1099 190 1083 176 1053 165 C1087 150 1110 128 1126 95 Z' fill='#fffef3' stroke='#243f50' stroke-width='9'/>
+    <path d='M1118 196 C1087 189 1057 192 1023 211 C1045 181 1064 163 1091 151' fill='#fffef3' stroke='#243f50' stroke-width='9' stroke-linejoin='round'/>
+    <path d='M1166 93 C1223 58 1359 52 1425 86' fill='none' stroke='#f6cf4c' stroke-width='11' stroke-linecap='round'/>
+    <text x='1305' y='238' text-anchor='middle' font-family='Arial Black, Impact, sans-serif' font-size='174' font-weight='900' fill='#c92f35' stroke='#6f1820' stroke-width='7' paint-order='stroke fill'>21</text>
+    <g fill='url(#gold)' stroke='#7c5c16' stroke-width='3'><path d='M1170 128 L1178 145 L1197 148 L1183 162 L1186 181 L1170 172 L1153 181 L1157 162 L1143 148 L1162 145 Z'/><path d='M1443 219 L1449 232 L1464 234 L1453 245 L1456 260 L1443 253 L1430 260 L1433 245 L1422 234 L1437 232 Z'/></g>
+  </g>
+
+  <g fill='none' stroke='#ffffff' stroke-linecap='round' opacity='0.72'>
+    <path d='M85 724 C194 693 302 692 411 713' stroke-width='7'><animate attributeName='stroke-dasharray' values='5 125;70 60;5 125' dur='1.6s' repeatCount='indefinite'/></path>
+    <path d='M1176 709 C1305 679 1430 683 1550 718' stroke-width='6'><animate attributeName='stroke-dasharray' values='12 120;76 56;12 120' dur='1.6s' repeatCount='indefinite'/></path>
+  </g>
+  <g opacity='0.72'><path d='M70 958 H1530' stroke='#d8eef5' stroke-width='3'/><path d='M170 973 H1430' stroke='#ffffff' stroke-width='2'/></g>
+</svg>
