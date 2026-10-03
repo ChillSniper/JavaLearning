@@ -1,0 +1,343 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1200" viewBox="0 0 1800 1200" role="img" aria-labelledby="scene-title scene-description">
+  <title id="scene-title">云端奇旅：鹈鹕喊出21！</title>
+  <desc id="scene-description">孙悟空驾驶大型飞机。鹈鹕在飞机机翼上骑自行车，展开的双翼托着北极熊。秦始皇骑在北极熊背上，手持电动螺丝刀安装螺丝。鹈鹕喊出糖果题答案21：根据形状选择9个圆形和12个五角星形糖果。</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#477f94"/><stop offset=".55" stop-color="#94c4c8"/><stop offset="1" stop-color="#d4e7df"/></linearGradient>
+    <radialGradient id="sun-halo"><stop stop-color="#ffe7a6" stop-opacity=".75"/><stop offset="1" stop-color="#ffe7a6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="metal" x2=".15" y2="1"><stop stop-color="#ffffec"/><stop offset=".35" stop-color="#deebe2"/><stop offset=".73" stop-color="#b6caca"/><stop offset="1" stop-color="#638d99"/></linearGradient>
+    <linearGradient id="wing-metal" x1="0" y1="0" x2=".15" y2="1"><stop stop-color="#fcf9df"/><stop offset=".6" stop-color="#d6e4dd"/><stop offset="1" stop-color="#8fb0b4"/></linearGradient>
+    <linearGradient id="ivory" x2=".5" y2="1"><stop stop-color="#fffbed"/><stop offset=".58" stop-color="#f3efda"/><stop offset="1" stop-color="#c0c9bb"/></linearGradient>
+    <linearGradient id="feather" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#fff9de"/><stop offset=".62" stop-color="#e6e4cc"/><stop offset="1" stop-color="#9bada5"/></linearGradient>
+    <linearGradient id="fur" x1=".2" x2=".6" y2="1"><stop stop-color="#fffff2"/><stop offset=".65" stop-color="#e8f0e8"/><stop offset="1" stop-color="#abc9c9"/></linearGradient>
+    <linearGradient id="beak" x1="0" x2=".6" y2="1"><stop stop-color="#ffd86e"/><stop offset=".48" stop-color="#f2b14e"/><stop offset="1" stop-color="#d56c42"/></linearGradient>
+    <linearGradient id="gold" x2=".8" y2="1"><stop stop-color="#fff0a0"/><stop offset=".3" stop-color="#ebc25f"/><stop offset=".7" stop-color="#b48037"/><stop offset="1" stop-color="#f7d47d"/></linearGradient>
+    <linearGradient id="red" x2=".65" y2="1"><stop stop-color="#fa9b68"/><stop offset=".45" stop-color="#da6547"/><stop offset="1" stop-color="#9f3f39"/></linearGradient>
+    <linearGradient id="glass" x2=".75" y2="1"><stop stop-color="#a7e5dd"/><stop offset=".5" stop-color="#447b88"/><stop offset="1" stop-color="#244f60"/></linearGradient>
+    <radialGradient id="engine-inlet"><stop stop-color="#789598"/><stop offset=".28" stop-color="#234956"/><stop offset=".88" stop-color="#142f3e"/><stop offset="1" stop-color="#0a202c"/></radialGradient>
+    <pattern id="rivets" width="30" height="24" patternUnits="userSpaceOnUse"><circle cx="6" cy="8" r="1.6" fill="#496f7d" opacity=".45"/><circle cx="6" cy="6" r="1.1" fill="#fffceb" opacity=".8"/></pattern>
+    <pattern id="robe-pattern" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M5 16q10-17 20 0q-10 17-20 0m10-8v16" fill="none" stroke="#dfb459" stroke-width="1" opacity=".22"/></pattern>
+    <filter id="shadow" x="-20%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#173e4d" flood-opacity=".2"/></filter>
+    <filter id="small-shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="1" dy="5" stdDeviation="3" flood-color="#173e4d" flood-opacity=".24"/></filter>
+    <clipPath id="artboard"><rect x="26" y="26" width="1748" height="1090" rx="24"/></clipPath>
+    <clipPath id="cockpit-clip"><path d="M1437 801Q1484 717 1567 752Q1638 766 1681 835L1647 877L1447 870Z"/></clipPath>
+    <g id="cloud" fill="#eff4dc" stroke="#c5ded5" stroke-width="2"><path d="M0 48Q15 17 52 30Q62-5 107 7Q138-16 168 21Q205 12 218 42Q246 38 260 57Q237 77 190 73H46Q9 77 0 61Z"/><path d="M36 53q30-7 49 5m35-30q19-4 27 13m18 15q35-10 56 1" fill="none" opacity=".7"/></g>
+    <g id="star"><path d="M0-15L4.4-4.8L15-4.6L6.9 2.8L9 14L0 8.4L-9 14L-6.9 2.8L-15-4.6L-4.4-4.8Z"/></g>
+    <g id="bolt"><circle r="4.1" fill="#d8e0d6" stroke="#527884" stroke-width="1.4"/><path d="M-2 0H2M0-2V2" stroke="#527884" stroke-width="1.2"/></g>
+    <g id="wheel" fill="none">
+      <circle r="98" stroke="#1b3844" stroke-width="15"/><circle r="98" stroke="#415860" stroke-width="2" stroke-dasharray="3 9"/>
+      <circle r="87" stroke="#ecedda" stroke-width="5"/><circle r="82" stroke="#637f86" stroke-width="2"/>
+      <g stroke="#759298" stroke-width="1.8"><path d="M0-82V82M-82 0H82M-58-58L58 58M58-58L-58 58M-31-76L31 76M31-76L-31 76M-76-31L76 31M76-31L-76 31"/><path d="M-16-80L16 80M16-80L-16 80M-80-16L80 16M80-16L-80 16M-45-69L45 69M45-69L-45 69M-69-45L69 45M69-45L-69 45" opacity=".6"/></g>
+      <circle r="14" fill="url(#gold)" stroke="#254955" stroke-width="4"/><circle r="5" fill="#f8ecd0" stroke="#254955" stroke-width="2"/>
+      <rect x="-3" y="-77" width="6" height="17" rx="2" fill="#e6ac48" stroke="#6a693e" stroke-width="1"/>
+    </g>
+    <g id="fan-blade"><path d="M0-12Q-15-27-10-52Q5-56 14-49Q-2-26 7-13Z" fill="#6c939c" stroke="#173d4d" stroke-width="1.5"/></g>
+  </defs>
+  <rect width="1800" height="1200" rx="28" fill="#f4efdf"/>
+  <g clip-path="url(#artboard)" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="26" y="26" width="1748" height="1090" fill="url(#sky)"/>
+    <circle cx="1292" cy="274" r="310" fill="url(#sun-halo)"/>
+    <circle cx="1292" cy="274" r="132" fill="#f7df9e" opacity=".9"/>
+    <circle cx="1292" cy="274" r="145" fill="none" stroke="#f3e1ae" stroke-width="1.5" opacity=".5"/>
+    <g opacity=".48"><use xlink:href="#cloud" transform="translate(1160 109) scale(.75)"/><use xlink:href="#cloud" transform="translate(92 371) scale(1.25)"/><use xlink:href="#cloud" transform="translate(1288 625) scale(1.15)"/></g>
+    <g opacity=".8"><use xlink:href="#cloud" transform="translate(-51 645) scale(1.5)"/><use xlink:href="#cloud" transform="translate(1357 987) scale(1.75)"/><use xlink:href="#cloud" transform="translate(223 1066) scale(1.9)"/></g>
+    <g fill="none" stroke="#e1eee0" opacity=".55"><path d="M92 319H353m-211 15h142M1103 96h268M1408 553h254m-181 14h203M76 578h259m-220 16h167" stroke-width="2"/><path d="M56 694q165-35 339-4M59 709q137-23 214-5" stroke-width="3"/></g>
+    <g fill="#f6e9b9"><use xlink:href="#star" transform="translate(442 253) scale(.4)"/><use xlink:href="#star" transform="translate(1169 138) scale(.4)"/><use xlink:href="#star" transform="translate(1624 600) scale(.45)"/><circle cx="534" cy="300" r="3"/><circle cx="1141" cy="224" r="3"/></g>
+    <g id="heading" fill="#fff4d8" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+      <text x="91" y="101" font-size="15" letter-spacing="6" opacity=".88">A MOST EXTRAORDINARY FLIGHT</text>
+      <text x="85" y="180" font-size="66" font-weight="800" letter-spacing="8">云端奇旅</text>
+      <path d="M92 211H403" stroke="#eac677" stroke-width="3"/>
+      <text x="92" y="242" font-size="18" letter-spacing="3">一场不可思议的空中骑行</text>
+    </g>
+    <!-- 飞机与机翼 -->
+    <g id="airplane" stroke="#244a58" stroke-width="4" filter="url(#shadow)">
+      <path d="M749 823L999 670L1170 672L1080 840Z" fill="#94b7bb"/>
+      <path d="M926 748L1030 687L1148 687" fill="none" stroke="#edf1db" stroke-width="4"/>
+      <path d="M204 824L110 624L173 615L368 823Z" fill="url(#metal)"/>
+      <path d="M149 634L177 633L292 781L242 786Z" fill="#c15e42" stroke="none"/>
+      <circle cx="206" cy="727" r="24" fill="#f1cf74" stroke-width="2"/>
+      <path d="M191 728q14-31 31-3q-12-6-14 11q-5-13-17-8" fill="none" stroke-width="3"/>
+      <path d="M121 808Q318 773 627 779L1435 758Q1597 753 1704 838Q1758 885 1697 921Q1636 957 1451 961L406 958Q212 956 116 884Q63 840 121 808Z" fill="url(#metal)"/>
+      <path d="M125 875Q350 911 576 899L1446 890Q1618 893 1711 862Q1750 896 1697 921Q1636 957 1451 961L406 958Q212 956 116 884Z" fill="#7198a2" opacity=".42" stroke="none"/>
+      <path d="M132 825Q322 793 627 799L1401 780" fill="none" stroke="#fffde8" stroke-width="7" opacity=".85"/>
+      <path d="M166 885Q328 926 650 915L1437 913Q1572 917 1659 890" fill="none" stroke="#c76448" stroke-width="14"/>
+      <path d="M191 901Q367 937 650 929L1442 929Q1550 931 1624 911" fill="none" stroke="#e7bd66" stroke-width="3"/>
+      <path d="M190 843L54 804L40 828L198 901L328 868Z" fill="url(#metal)"/>
+      <path d="M85 827L196 876L266 865" fill="none" stroke="#faf5dc" stroke-width="4"/>
+      <path d="M330 801H1430V867H330Z" fill="url(#rivets)" stroke="none" opacity=".7"/>
+      <g fill="url(#glass)" stroke="#eef0dc" stroke-width="3">
+        <rect x="363" y="824" width="30" height="34" rx="13"/><rect x="422" y="822" width="30" height="34" rx="13"/><rect x="481" y="820" width="30" height="34" rx="13"/><rect x="540" y="818" width="30" height="34" rx="13"/><rect x="599" y="816" width="30" height="34" rx="13"/><rect x="658" y="814" width="30" height="34" rx="13"/><rect x="717" y="812" width="30" height="34" rx="13"/><rect x="776" y="810" width="30" height="34" rx="13"/><rect x="835" y="808" width="30" height="34" rx="13"/><rect x="894" y="806" width="30" height="34" rx="13"/><rect x="953" y="804" width="30" height="34" rx="13"/><rect x="1012" y="802" width="30" height="34" rx="13"/><rect x="1071" y="800" width="30" height="34" rx="13"/><rect x="1130" y="798" width="30" height="34" rx="13"/><rect x="1189" y="796" width="30" height="34" rx="13"/>
+      </g>
+      <rect x="1271" y="803" width="53" height="91" rx="10" fill="#d7e3d8" stroke="#789ba4" stroke-width="2"/>
+      <rect x="1287" y="816" width="22" height="23" rx="7" fill="url(#glass)" stroke-width="2"/>
+      <path d="M1305 859h9" stroke-width="3"/>
+      <text x="1350" y="911" font-family="Georgia,serif" font-size="22" letter-spacing="3" fill="#244a58" stroke="none">WUKONG AIR</text>
+    </g>
+    <g id="sun-wukong" stroke="#244a58" stroke-width="3">
+      <path d="M1437 801Q1484 717 1567 752Q1638 766 1681 835L1647 877L1447 870Z" fill="url(#glass)" stroke-width="6"/>
+      <g clip-path="url(#cockpit-clip)">
+        <path d="M1480 905v-78q0-27 24-29h36q26 7 24 41v66Z" fill="#193948"/>
+        <path d="M1490 875q-6-54 47-53q48-9 67 55" fill="url(#gold)"/>
+        <path d="M1491 838l39 40m27-49 33 47" stroke="#ae4d37" stroke-width="14"/>
+        <path d="M1533 826q-34 4-46 29l-27-13q0-21 19-17q-17-26 7-44q9-18 30-22l40 4q28 10 24 35l-10 22Z" fill="#aa683f"/>
+        <circle cx="1493" cy="799" r="15" fill="#bd8050"/>
+        <circle cx="1573" cy="796" r="15" fill="#bd8050"/>
+        <path d="M1490 793q-8 6 0 13m85-17q8 7 0 14" fill="none" stroke="#7e4e33" stroke-width="3"/>
+        <path d="M1501 782q12-12 32 2q18-18 31-6l1 37q-3 25-29 29q-24-1-35-22Z" fill="#f0c387"/>
+        <path d="M1507 796q9-7 19 0m14-2q10-7 18-1" fill="none" stroke="#734932"/>
+        <ellipse cx="1519" cy="802" rx="4" ry="6" fill="#233a40" stroke="none"/><ellipse cx="1547" cy="800" rx="4" ry="6" fill="#233a40" stroke="none"/>
+        <path d="M1531 802l-5 14 11 1m-23 8q16 13 32-3" fill="none" stroke="#9b593d"/>
+        <path d="M1498 780q37-18 69-3l-1-11q-32-18-68 2Z" fill="url(#gold)" stroke="#805929"/>
+        <path d="M1530 772q-12-10-12-2t15 4q13-17 18-8t-12 9" fill="none" stroke="#9b682e" stroke-width="2.5"/>
+        <path d="M1522 764q-35-59-72-38q-24 12 1 24m94 13q-12-73-48-67q-21 5-8 22" fill="none" stroke="#dbab55" stroke-width="5"/>
+        <path d="M1577 839q20-8 33 16l19 5" fill="none" stroke="#e9ba7b" stroke-width="13"/>
+        <path d="M1523 850q20 11 37 9l25-4" fill="none" stroke="#e9ba7b" stroke-width="13"/>
+        <path d="M1607 888v-31m-24-10v14h47v-14" fill="none" stroke="#183c4e" stroke-width="8"/>
+        <circle cx="1585" cy="854" r="7" fill="#edc18c"/><circle cx="1628" cy="854" r="7" fill="#edc18c"/>
+        <path d="M1638 861l46-18v58h-47Z" fill="#183c4e"/>
+        <g stroke="none"><circle cx="1650" cy="868" r="3" fill="#edc572"/><circle cx="1661" cy="864" r="3" fill="#a7dfc5"/></g>
+        <path d="M1454 795q17-28 43-36m99 19 61 59" fill="none" stroke="#edffeb" opacity=".4" stroke-width="6"/>
+      </g>
+      <path d="M1595 766l-10 65 16 46" fill="none" stroke="#244a58" stroke-width="7"/>
+      <path d="M1604 771l-9 59" fill="none" stroke="#dfedde" stroke-width="2"/>
+      <path d="M1464 881h83" stroke="#759da4" stroke-width="2"/>
+    </g>
+    <g id="airplane-wing" stroke="#355965" stroke-width="4" filter="url(#shadow)">
+      <path d="M526 871L1060 860L1549 1034L285 1034Z" fill="url(#wing-metal)"/>
+      <path d="M285 1034H1549L1517 1061H310Z" fill="#7599a2"/>
+      <path d="M311 1036H1524" stroke="#f6f1d8" stroke-width="4"/>
+      <path d="M550 887L1049 876L1468 1020H338Z" fill="url(#rivets)" stroke="none" opacity=".6"/>
+      <path d="M394 993H1408M617 899L559 1022M999 895L1210 1022" fill="none" stroke="#7e9d9f" stroke-width="2"/>
+      <path d="M369 1010H1451M580 881H1030" fill="none" stroke="#f7f6de" stroke-width="3"/>
+      <path d="M670 918H1160" stroke="#f4c75e" stroke-width="5" stroke-dasharray="36 20"/>
+      <path d="M681 943H1180" stroke="#738f97" stroke-width="1.5"/>
+      <path d="M730 886L691 915M969 882L1012 913" stroke="#8aa8ad" stroke-width="2"/>
+      <g stroke="none" fill="#b55441"><path d="M1325 1009l16-21 20 21Zm-849 0 16-21 20 21Z"/></g>
+      <g><use xlink:href="#bolt" x="628" y="985"/><use xlink:href="#bolt" x="738" y="985"/><use xlink:href="#bolt" x="848" y="985"/><use xlink:href="#bolt" x="958" y="985"/><use xlink:href="#bolt" x="1068" y="985"/><use xlink:href="#bolt" x="1178" y="985"/></g>
+    </g>
+    <g id="engines" stroke="#244a58" stroke-width="3.5">
+      <g transform="translate(1305 1053)">
+        <path d="M-17-33l-5-49 49-5 21 69Z" fill="#7e9fa6"/>
+        <path d="M-67-30q63-27 153 10l-1 63q-77 34-150 13Z" fill="url(#metal)"/>
+        <path d="M-33-23q47-3 83 14" fill="none" stroke="#fff8de" stroke-width="5"/>
+        <ellipse cx="81" cy="13" rx="42" ry="53" fill="#d6e3d9"/>
+        <ellipse cx="81" cy="13" rx="33" ry="44" fill="url(#engine-inlet)"/>
+        <g transform="translate(81 13) scale(.6 .76)"><use xlink:href="#fan-blade"/><use xlink:href="#fan-blade" transform="rotate(40)"/><use xlink:href="#fan-blade" transform="rotate(80)"/><use xlink:href="#fan-blade" transform="rotate(120)"/><use xlink:href="#fan-blade" transform="rotate(160)"/><use xlink:href="#fan-blade" transform="rotate(200)"/><use xlink:href="#fan-blade" transform="rotate(240)"/><use xlink:href="#fan-blade" transform="rotate(280)"/><use xlink:href="#fan-blade" transform="rotate(320)"/><circle r="13" fill="#c6d8d5"/><path d="M-5 1q2-9 8-3t-7 7" stroke="#496b79" stroke-width="2" fill="none"/></g>
+        <path d="M-58 41q36 10 76 6" fill="none" stroke="#577c88" stroke-width="2"/>
+      </g>
+      <g transform="translate(450 1067) scale(.8)">
+        <path d="M-20-30l-11-46 51-4 28 66Z" fill="#7e9fa6"/>
+        <path d="M-67-30q63-27 153 10l-1 63q-77 34-150 13Z" fill="url(#metal)"/>
+        <ellipse cx="81" cy="13" rx="42" ry="53" fill="#d6e3d9"/><ellipse cx="81" cy="13" rx="33" ry="44" fill="url(#engine-inlet)"/>
+        <g transform="translate(81 13) scale(.6 .76)"><use xlink:href="#fan-blade"/><use xlink:href="#fan-blade" transform="rotate(45)"/><use xlink:href="#fan-blade" transform="rotate(90)"/><use xlink:href="#fan-blade" transform="rotate(135)"/><use xlink:href="#fan-blade" transform="rotate(180)"/><use xlink:href="#fan-blade" transform="rotate(225)"/><use xlink:href="#fan-blade" transform="rotate(270)"/><use xlink:href="#fan-blade" transform="rotate(315)"/><circle r="13" fill="#c6d8d5"/></g>
+        <path d="M-35-23q45-3 83 14" fill="none" stroke="#fff8de" stroke-width="5"/>
+      </g>
+    </g>
+    <ellipse cx="915" cy="940" rx="326" ry="18" fill="#325f6c" opacity=".16"/>
+    <!-- 自行车 -->
+    <g id="bicycle" stroke-linecap="round" stroke-linejoin="round">
+      <use id="rear-wheel" xlink:href="#wheel" x="710" y="829"/>
+      <use id="front-wheel" xlink:href="#wheel" x="1110" y="829"/>
+      <path d="M616 805a97 97 0 0 1 178-49m230 16a97 97 0 0 1 179 34" fill="none" stroke="#244a58" stroke-width="8"/>
+      <path d="M616 803a97 97 0 0 1 178-49m230 16a97 97 0 0 1 179 32" fill="none" stroke="#f1ce84" stroke-width="4"/>
+      <path d="M618 802l92 27m-19-97 19 97m400 0 19-97m-19 97 91-23" fill="none" stroke="#637f85" stroke-width="2"/>
+      <path d="M710 829L852 706L915 829ZM852 706L1032 698L915 829M1032 698L1110 829" fill="none" stroke="#214955" stroke-width="19"/>
+      <path d="M710 829L852 706L915 829ZM852 706L1032 698L915 829M1032 698L1110 829" fill="none" stroke="url(#red)" stroke-width="12"/>
+      <path d="M727 815L850 718L904 814M871 709L1013 702L929 813" fill="none" stroke="#ffc590" stroke-width="2.5"/>
+      <path d="M851 706l-10-42M1031 698l-23-58 39-23 42 3" fill="none" stroke="#234955" stroke-width="12"/>
+      <path d="M1031 698l-23-58 39-23" fill="none" stroke="#d1ddd3" stroke-width="6"/>
+      <path d="M801 668q27-14 80-6l-4 13q-44 6-72 2Z" fill="#734c3b" stroke="#244a58" stroke-width="4"/>
+      <path d="M814 668h52" stroke="#c68d58" stroke-width="2"/>
+      <path d="M1072 619l26 4" stroke="#684e3e" stroke-width="13"/>
+      <path d="M1077 615l-2 10m9-8-2 10m9-8-2 10" stroke="#c39363" stroke-width="1.5"/>
+      <path d="M1050 627q59 63 55 145" fill="none" stroke="#284d59" stroke-width="2"/>
+      <circle cx="1030" cy="633" r="9" fill="url(#gold)" stroke="#244a58" stroke-width="2"/>
+      <path d="M710 813L915 799a30 30 0 0 1 0 60L710 846a17 17 0 0 1 0-33Z" fill="#b7c7bf" fill-opacity=".4" stroke="#365864" stroke-width="3"/>
+      <path d="M710 818L915 805a24 24 0 0 1 0 48L710 841a12 12 0 0 1 0-23Z" fill="none" stroke="#577078" stroke-width="3" stroke-dasharray="3 4"/>
+      <circle cx="915" cy="829" r="29" fill="#496770" stroke="#244a58" stroke-width="4"/><circle cx="915" cy="829" r="19" fill="#e2bf72" stroke="#244a58" stroke-width="3"/>
+      <path d="M915 829L878 864M915 829L952 794" fill="none" stroke="#264a57" stroke-width="10"/><path d="M915 829L878 864M915 829L952 794" fill="none" stroke="#c3d6cd" stroke-width="5"/>
+      <path d="M860 864h35m40-70h35" stroke="#244a58" stroke-width="9"/>
+      <path d="M862 861h29m47-70h29" stroke="#dcb05b" stroke-width="3"/>
+      <circle cx="915" cy="829" r="5" fill="#244a58"/>
+      <rect x="794" y="746" width="8" height="22" rx="3" fill="#f5d797" transform="rotate(47 798 757)"/>
+    </g>
+    <!-- 鹈鹕的双翼托住北极熊 -->
+    <g id="pelican-wings" fill="url(#feather)" stroke="#3c5d63" stroke-width="3.5" filter="url(#small-shadow)">
+      <path d="M868 615C805 562 738 500 656 496Q554 484 471 535Q484 545 515 543Q479 559 473 573Q500 584 539 563Q506 588 512 603Q542 604 570 581Q550 610 559 622Q585 621 609 599Q595 627 608 638Q631 635 650 617Q643 642 661 650Q686 645 707 632Q708 656 730 660Q752 655 772 649Q803 673 864 660Z"/>
+      <path d="M915 614C964 554 1040 493 1143 490Q1235 487 1301 531Q1289 543 1258 539Q1292 557 1300 572Q1277 585 1235 564Q1268 590 1262 604Q1232 605 1203 582Q1224 609 1212 624Q1186 623 1167 603Q1178 628 1163 638Q1138 635 1121 617Q1127 640 1111 650Q1081 643 1064 632Q1061 655 1042 658Q1019 654 1000 647Q970 670 925 662Z"/>
+      <g fill="none" stroke="#9eae9f" stroke-width="2.2">
+        <path d="M839 614Q751 533 551 528M815 622Q706 570 540 562M790 631Q699 595 570 580M758 639Q688 614 610 598M726 644Q681 631 650 616"/>
+        <path d="M955 612Q1046 529 1227 526M980 621Q1080 568 1232 563M1004 630Q1100 596 1201 581M1035 639Q1099 615 1168 602M1066 643Q1100 632 1121 617"/>
+        <path d="M572 521q-21 8-28 18m57-23q-20 10-29 28m61-27q-22 14-27 29m60-23q-19 11-24 30m61-18q-16 12-18 26m53-10q-12 10-15 23"/>
+        <path d="M1210 519q21 8 27 19m-57-24q20 10 29 29m-61-25q22 11 27 29m-60-23q19 11 24 30m-61-18q16 12 18 26m-53-10q12 10 15 23"/>
+      </g>
+      <path d="M530 525Q656 470 779 564M1025 555Q1147 476 1252 523" fill="none" stroke="#fffbe3" stroke-width="6" opacity=".8"/>
+      <g fill="#849b95" stroke="none" opacity=".6"><path d="M478 569q30 7 61-6q-27 26-42 16Z"/><path d="M516 601q28 2 54-20q-16 24-31 24Z"/><path d="M559 618q25 1 50-19q-13 24-29 26Z"/><path d="M1295 569q-29 9-60-5q27 26 43 18Z"/><path d="M1258 601q-28 3-55-19q16 23 32 25Z"/><path d="M1208 620q-20 0-41-17q12 23 27 25Z"/></g>
+    </g>
+    <g id="pelican" stroke="#345963" stroke-width="3.5">
+      <g id="pelican-feet" fill="none" stroke="#c98740" stroke-width="16">
+        <path d="M827 679L850 739L952 792"/><path d="M903 683L929 746L879 857"/>
+        <path d="M829 683L852 738L946 788M906 688L932 745L884 850" stroke="#f1ba66" stroke-width="5"/>
+      </g>
+      <path d="M932 786q16-9 31 4l18 7-9 9-33-5Z" fill="#ecaa57"/>
+      <path d="M861 852q12-8 21 2l23 10-6 10-37-6-10-8Z" fill="#ecaa57"/>
+      <path d="M944 792l20 7m-94 59 18 10" stroke="#b77437" stroke-width="2"/>
+      <path d="M810 656Q755 660 725 698L771 696L747 719Q788 720 837 686Z" fill="#8ba39c"/>
+      <path d="M757 698l65-29m-45 38 51-31" stroke="#d7e0ce" stroke-width="2"/>
+      <path d="M802 588Q871 559 946 600Q1017 620 1003 665Q986 710 903 711Q837 716 792 681Q751 648 770 615Q780 598 802 588Z" fill="url(#ivory)"/>
+      <path d="M792 656Q854 702 944 686Q974 681 996 661Q984 705 903 711Q832 714 792 681Z" fill="#a4b7a9" opacity=".36" stroke="none"/>
+      <path d="M847 595q49-6 85 19m-108 1q45-4 75 17m-78 5q43-3 70 15m-61 5q27 0 46 8" fill="none" stroke="#bdc4b1" stroke-width="2.5"/>
+      <path d="M934 619Q972 582 979 526Q984 471 1031 477Q1063 482 1076 515Q1085 552 1056 582Q1019 624 1003 665Q966 676 947 655" fill="url(#ivory)"/>
+      <path d="M978 630Q1000 576 1020 548" fill="none" stroke="#c7cdb8" stroke-width="9"/>
+      <path d="M1002 490l-12-23 27 13-4-25 23 24 7-16 12 22" fill="#f4f0d8"/>
+      <path d="M993 504Q1002 477 1034 477Q1084 477 1097 519Q1102 551 1075 572Q1041 593 1017 570" fill="url(#ivory)"/>
+      <path d="M1075 544Q1175 535 1313 568Q1327 573 1314 580Q1189 609 1080 590Z" fill="url(#beak)" stroke="#86563a"/>
+      <path d="M1084 588Q1175 595 1290 582Q1217 662 1146 640Q1103 627 1084 588Z" fill="#e7a479" stroke="#86563a"/>
+      <path d="M1095 598Q1168 617 1264 592" fill="none" stroke="#f5c59a" stroke-width="4"/>
+      <path d="M1146 612q37 10 70-1m-96-2 14 11" fill="none" stroke="#bd795b" stroke-width="2"/>
+      <path d="M1091 568Q1203 572 1310 576" fill="none" stroke="#8e5b38" stroke-width="2.5"/>
+      <path d="M1098 552Q1187 548 1269 567" fill="none" stroke="#ffe6a0" stroke-width="4"/>
+      <ellipse cx="1070" cy="520" rx="15" ry="17" fill="#efc864" stroke-width="2.5"/>
+      <ellipse cx="1074" cy="521" rx="7" ry="10" fill="#183b49" stroke="none"/>
+      <circle cx="1077" cy="516" r="3.2" fill="#ffffeb" stroke="none"/>
+      <path d="M1049 496q19-13 37 0" fill="none" stroke="#486664" stroke-width="4"/>
+      <path d="M1030 550q6 10 17 10" fill="none" stroke="#a2b39d" stroke-width="2"/>
+      <circle cx="1116" cy="553" r="2.8" fill="#ad713c" stroke="none"/>
+      <path d="M978 583q29 21 51 18l-10 23q-27-2-48-18Z" fill="url(#red)"/>
+      <path d="M978 598Q917 571 868 580Q842 585 817 565Q818 599 870 604Q918 608 970 615Z" fill="#c25d43"/>
+      <path d="M873 584q44 4 88 18m-110-20q5 9 22 10" fill="none" stroke="#f4ae73" stroke-width="2"/>
+      <path d="M990 605l-26 15q-7 9 3 16q15 1 31-24" fill="#dc7750"/>
+    </g>
+    <!-- 熊掌接触羽翼，鞍具承托秦始皇 -->
+    <g id="polar-bear" fill="url(#fur)" stroke="#385c66" stroke-width="3.5" filter="url(#small-shadow)">
+      <path d="M710 452q-4 31-36 44l-18 22q18 17 45 4l55-55Z" fill="#b4cecb"/>
+      <path d="M895 459q22 25 33 42l22 18q22 6 33-7l-32-64Z" fill="#b4cecb"/>
+      <path d="M980 396q31-19 35 3q-3 19-26 18"/>
+      <path d="M685 373Q754 340 858 354Q959 360 989 402Q1014 449 965 480Q894 510 753 485Q685 487 658 449Q631 402 685 373Z"/>
+      <path d="M699 453Q825 489 956 459Q978 452 992 427Q995 466 965 480Q893 510 753 485Q712 486 692 470Z" fill="#acc9c5" stroke="none" opacity=".55"/>
+      <path d="M689 424Q687 475 649 500Q623 501 622 521Q643 539 679 527Q718 508 744 473"/>
+      <path d="M932 424q-7 40 28 67l32 15q22 11 17 26q-29 13-59-3q-38-17-67-56"/>
+      <path d="M638 511l-4 13m15-12-4 14m14-16-4 15m324-7 3 11m-15-15 3 10m24-3 4 10" fill="none" stroke="#6c8e91" stroke-width="2.3"/>
+      <path d="M702 450l-9 17 11-3m250-13 10 15-12-3M775 376l-8 12 17-4m83-3 9 9-14-3" fill="none" stroke="#bbd0c5" stroke-width="2"/>
+      <path d="M690 374Q681 342 663 342Q646 344 645 364"/>
+      <path d="M625 371Q605 343 590 357Q579 372 593 391"/>
+      <path d="M649 358q9-10 17 2m-64 14q-9-11-13-1" fill="none" stroke="#aac7c5" stroke-width="9"/>
+      <path d="M610 372Q642 354 674 377Q701 401 687 440Q678 473 640 477Q612 475 589 455Q563 450 564 428Q567 405 591 401Q592 381 610 372Z"/>
+      <path d="M590 414q-20 8-16 23q16 15 40 8q25-8 18-27q-9-13-25-9" fill="#ffffee" stroke="none"/>
+      <path d="M576 414q16-7 28 0q1 14-16 16q-11-2-12-16Z" fill="#264a55" stroke-width="2"/>
+      <path d="M582 416h11" stroke="#73979c" stroke-width="2"/>
+      <ellipse cx="626" cy="403" rx="5" ry="7" fill="#224553" stroke="none"/><circle cx="627" cy="400" r="1.8" fill="#f7fae8" stroke="none"/>
+      <path d="M615 390q12-10 23-2m-51 43q10 15 28 2" fill="none" stroke="#608083" stroke-width="2.5"/>
+      <path d="M652 445l-9 9 14-2m4-50 4 12-9-3" fill="none" stroke="#c0d2c7" stroke-width="2"/>
+      <path d="M684 386q-1 51-26 79" fill="none" stroke="#a7503d" stroke-width="10"/>
+      <path d="M683 388q-1 50-23 74" fill="none" stroke="#edc169" stroke-width="3"/>
+      <path d="M670 451l13 10-13 21-16-10Z" fill="url(#gold)" stroke="#8e703e" stroke-width="2"/>
+      <text x="668" y="472" fill="#6b5833" stroke="none" font-family="'Microsoft YaHei',sans-serif" font-size="14" text-anchor="middle" transform="rotate(24 668 467)">秦</text>
+      <path d="M741 363q77-22 149 13l14 66q-75 13-167-7Z" fill="#a44a3b"/>
+      <path d="M751 370q70-14 130 14l12 51q-66 6-145-7Z" fill="#772f30" stroke="#e6b761" stroke-width="3"/>
+      <path d="M766 378q12 9 24 0t24 0t24 0t24 0m-102 42q12-9 24 0t24 0t24 0t24 0" fill="none" stroke="#d1a454" stroke-width="2"/>
+      <path d="M787 441l8 44m61-41 7 40" stroke="#806045" stroke-width="10"/>
+      <path d="M787 441l8 44m61-41 7 40" stroke="#d3af64" stroke-width="2"/>
+    </g>
+    <g id="qin-shihuang" stroke="#253f48" stroke-width="3.5" filter="url(#small-shadow)">
+      <path d="M860 365q32 24 39 69l-26 6-35-61Z" fill="#293b40"/>
+      <path d="M877 429q18-3 30 10l11 6q-15 14-42 7l-8-11Z" fill="#21363c"/>
+      <path d="M878 445q13 4 27-1" stroke="#d3af64" stroke-width="3" fill="none"/>
+      <path d="M785 307q-30 13-63 51l26 10 38-11q-24 37-58 53q44 5 69-6l58-31Z" fill="#243d43"/>
+      <path d="M742 400q24-7 46-31m-35-20 27-22" fill="none" stroke="#c3a361" stroke-width="2.5"/>
+      <path d="M786 300Q824 284 867 305L899 381Q870 405 812 401L774 363Z" fill="#243a40"/>
+      <path d="M786 300Q824 284 867 305L899 381Q870 405 812 401L774 363Z" fill="url(#robe-pattern)" stroke="none"/>
+      <path d="M803 300l21 31 24-32 16 8-34 43-42-37Z" fill="#854c3a" stroke="#dabb76" stroke-width="2.5"/>
+      <path d="M798 363q40 20 85 0l5 16q-50 21-90 0Z" fill="url(#gold)"/>
+      <rect x="830" y="368" width="21" height="16" rx="3" fill="#387e78" stroke="#ead086" stroke-width="2"/>
+      <path d="M818 391q-9 28-10 54l-30 2q-3-38 14-61Z" fill="#283d42"/>
+      <path d="M806 395q-13 22-13 47" fill="none" stroke="#be9854" stroke-width="3"/>
+      <path d="M779 438q18-5 31 3l1 19q-20 8-38 1l-10-8Z" fill="#20383e"/>
+      <path d="M774 455q13 5 28 0" stroke="#d2ad61" stroke-width="3" fill="none"/>
+      <g id="robe-dragon" fill="none" stroke="#dfb761" stroke-width="2.2">
+        <path d="M853 340q27-23 27 1q-1 17-22 10q-13-8 4-17q10-4 4 7q-8 7-13-1Z"/>
+        <path d="M858 332l-5-8 9 1 5-7 4 9 7 1m-6 23 6 6 8-2m-32-9-9 7-6-3m25 8-1 5m-10-30-6-5-6 1"/>
+        <circle cx="861" cy="332" r="1.5" fill="#edcf7e"/>
+      </g>
+      <path d="M791 309q-18 5-40 28q-14 17-5 37l31 9 17-27 9-23Z" fill="#304448"/>
+      <path d="M751 365l32 10-7 15-31-9Z" fill="#9d603d" stroke="#d7b773" stroke-width="2.5"/>
+      <path d="M768 382l-1 12q12 13 23 5l-4-13Z" fill="#dba575"/>
+      <path d="M777 389l2 7m-8-7 3 7" stroke="#a77553" stroke-width="1.5"/>
+      <path d="M861 305q26 4 49 24l27 6-6 28-39-8-43-28Z" fill="#304448"/>
+      <path d="M914 331l23 3-3 31-23-6Z" fill="#945738" stroke="#dfbd71" stroke-width="2.5"/>
+      <path d="M934 339l26 6 8 16-10 9-29-15Z" fill="#dca877"/>
+      <path d="M930 346l23 10m-15-7 13 11" fill="none" stroke="#ac7756" stroke-width="1.7"/>
+      <path d="M809 285l-2 24q22 18 40-1l-4-25Z" fill="#c18a60"/>
+      <path d="M789 250q-1-40 36-42q42-3 43 42l-4 37q-15 32-36 35q-34-13-39-44Z" fill="#252f34"/>
+      <ellipse cx="792" cy="263" rx="8" ry="12" fill="#dca877"/><ellipse cx="865" cy="263" rx="8" ry="12" fill="#dca877"/>
+      <path d="M802 235q26-16 49 0l6 39q-3 25-28 29q-25-2-31-28Z" fill="#dfad7c"/>
+      <path d="M803 253q10-6 19-1m14 0q10-7 17-1" fill="none" stroke="#473d33" stroke-width="3"/>
+      <path d="M811 260h7m21-1h7" stroke="#293739" stroke-width="3"/>
+      <path d="M830 260l-6 13 9 2" fill="none" stroke="#b67b52" stroke-width="2"/>
+      <path d="M828 283q-7-7-18 0l-9 7q14 0 25-3q13 3 27-2l-12-5q-7-2-13 3Z" fill="#263337" stroke="none"/>
+      <path d="M806 288q10 14 22 7q14 6 26-10l-7 26-19 19-17-18Z" fill="#263337" stroke-width="2"/>
+      <path d="M821 302l5 18m9-21-4 22" stroke="#62706c" stroke-width="1.5"/>
+      <path d="M792 226l6-23h58l8 23Z" fill="#29373c" stroke="#c5a361" stroke-width="2.5"/>
+      <path d="M766 205l85-10 40 13-89 13Z" fill="#283a40" stroke="#e3bd6e" stroke-width="3"/>
+      <path d="M766 205v10l36 15 89-12v-10l-89 13Z" fill="#1d3038" stroke="#b99450" stroke-width="2"/>
+      <path d="M778 204l72-7 27 10-73 9Z" fill="url(#robe-pattern)" stroke="none"/>
+      <g stroke="#cda763" stroke-width="1.5" fill="none"><path d="M779 222v36m13-32v33m13-30v38m13-40v40m13-42v41m13-43v37m13-39v36m13-38v34m13-35v29"/></g>
+      <g fill="#e7c57b" stroke="none"><circle cx="779" cy="237" r="2.4"/><circle cx="779" cy="247" r="2.4"/><circle cx="792" cy="239" r="2.4"/><circle cx="792" cy="249" r="2.4"/><circle cx="805" cy="241" r="2.4"/><circle cx="805" cy="253" r="2.4"/><circle cx="818" cy="239" r="2.4"/><circle cx="818" cy="251" r="2.4"/><circle cx="831" cy="237" r="2.4"/><circle cx="831" cy="249" r="2.4"/><circle cx="844" cy="235" r="2.4"/><circle cx="844" cy="247" r="2.4"/><circle cx="857" cy="233" r="2.4"/><circle cx="857" cy="245" r="2.4"/><circle cx="870" cy="232" r="2.4"/><circle cx="870" cy="242" r="2.4"/><circle cx="883" cy="230" r="2.4"/><circle cx="883" cy="239" r="2.4"/></g>
+      <g fill="#79a799" stroke="#dfc58a" stroke-width="1"><circle cx="779" cy="258" r="3.5"/><circle cx="792" cy="259" r="3.5"/><circle cx="805" cy="267" r="3.5"/><circle cx="818" cy="267" r="3.5"/><circle cx="831" cy="266" r="3.5"/><circle cx="844" cy="260" r="3.5"/><circle cx="857" cy="258" r="3.5"/><circle cx="870" cy="255" r="3.5"/><circle cx="883" cy="251" r="3.5"/></g>
+    </g>
+    <g id="screw-workbench" stroke="#355762" stroke-width="3">
+      <path d="M889 396l59 7 30 41-24 12-38-36-23-4Z" fill="#798f8b"/>
+      <path d="M953 412h93l-8 25h-74Z" fill="#59777d"/>
+      <path d="M941 400l26-16 96 7-12 18-101 5Z" fill="#e0e5d6"/>
+      <path d="M950 414l101-5v10l-100 5Z" fill="#a4b9b4"/>
+      <use xlink:href="#bolt" transform="translate(960 401) scale(1.3)"/><use xlink:href="#bolt" transform="translate(1043 402) scale(1.3)"/>
+      <ellipse cx="1004" cy="400" rx="10" ry="4" fill="#748f93" stroke-width="1.5"/>
+      <path d="M1004 389v11" stroke="#a7c2c2" stroke-width="7"/>
+      <path d="M1000 391l8 2m-8 1 8 2m-8 1 8 2" stroke="#456874" stroke-width="1.5"/>
+      <ellipse cx="1004" cy="389" rx="6" ry="3" fill="#dce6dd" stroke-width="1.5"/>
+    </g>
+    <g id="electric-screwdriver" stroke="#264651" stroke-width="3">
+      <path d="M989 332l-30 9-5 33 21 2 12-25 16-6Z" fill="#dd8f43"/>
+      <path d="M960 344l13 3-6 23-13-2Z" fill="#284e59"/>
+      <path d="M949 373h34v15h-39v-10Z" fill="#2a525e"/>
+      <path d="M950 383h27" stroke="#e4b768" stroke-width="2"/>
+      <path d="M989 305h29l12 12-8 33h-35l-6-31Z" fill="url(#gold)"/>
+      <path d="M989 309h25" stroke="#fff0ab" stroke-width="3"/>
+      <path d="M1014 315h10m-11 7h11m-12 7h9" stroke="#6a743f" stroke-width="2.5"/>
+      <path d="M988 347h33l-5 16h-23Z" fill="#315c67"/>
+      <path d="M996 363h16v11h-16Z" fill="#819b9c"/>
+      <path d="M1004 374v15" stroke="#c8d9d4" stroke-width="5"/>
+      <path d="M1004 375v14" stroke="#426470" stroke-width="1.3"/>
+      <path d="M951 349q10-10 17-2l9 8-6 8-12-8q-11 7-12-1Z" fill="#e5b17d"/>
+      <path d="M958 349l10 9m-7-13 11 10" fill="none" stroke="#ad7851" stroke-width="1.7"/>
+      <path d="M1028 367q10 8 2 17m-8-26q21 16 10 34" fill="none" stroke="#e7bb61" stroke-width="2.5"/>
+    </g>
+    <!-- 答案与形状选择 -->
+    <g id="speech-bubble" filter="url(#shadow)" stroke="#244a58" stroke-width="5">
+      <path d="M1382 195Q1504 152 1638 207Q1707 237 1700 333Q1698 416 1644 447Q1567 494 1438 464L1329 550L1380 435Q1338 407 1332 346Q1316 242 1382 195Z" fill="#fff6d9"/>
+      <path d="M1365 267q14-41 64-51m18-5q78-14 142 11" fill="none" stroke="#e8bc67" stroke-width="3"/>
+      <g font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" text-anchor="middle" stroke="none">
+        <text x="1515" y="262" font-size="24" fill="#4e7377" letter-spacing="4">最少取出</text>
+        <text id="answer" x="1516" y="406" font-family="'Arial Black',Impact,sans-serif" font-size="166" font-weight="900" letter-spacing="-7" fill="#c35d41">21<tspan font-size="112" letter-spacing="0">!</tspan></text>
+        <text x="1515" y="445" font-size="17" fill="#52777a" letter-spacing="2">个糖果</text>
+      </g>
+      <use xlink:href="#star" transform="translate(1381 326) scale(.85)" fill="url(#gold)" stroke="#ae8547" stroke-width="2"/>
+      <use xlink:href="#star" transform="translate(1661 361) scale(.6)" fill="url(#gold)" stroke="#ae8547" stroke-width="2"/>
+    </g>
+    <g id="candy-selection" transform="translate(94 451)" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+      <path d="M0 0H259V103H0Z" fill="#315f70" fill-opacity=".35" stroke="#d4dfc5" stroke-opacity=".45" stroke-width="1.3"/>
+      <text x="18" y="28" fill="#f8edcc" font-size="15" letter-spacing="2">凭手感选择形状</text>
+      <circle cx="30" cy="68" r="12" fill="#f0bd65" stroke="#fff0b7" stroke-width="2"/>
+      <text x="52" y="75" fill="#fff2d2" font-size="23">× 9</text>
+      <text x="111" y="75" fill="#d9e5cf" font-size="23">+</text>
+      <use xlink:href="#star" transform="translate(158 67) scale(.95)" fill="#e29979" stroke="#ffe2b7" stroke-width="2"/>
+      <text x="180" y="75" fill="#fff2d2" font-size="23">× 12</text>
+    </g>
+    <g fill="none" stroke="#eef1d9" stroke-width="2" opacity=".75"><path d="M1151 690l54-5m-35 19 96-6M533 716l65 2m-103 18h83"/><path d="M1214 598l13 15m4-18 20 8" stroke="#f8d989"/></g>
+  </g>
+  <g id="footer" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" fill="#355b63">
+    <text x="62" y="1158" font-size="18" letter-spacing="2">鹈鹕的云端算术</text>
+    <path d="M282 1151H366" stroke="#8ba7a6" stroke-width="1"/>
+    <text x="389" y="1158" font-size="15" letter-spacing="1.5">孙悟空掌舵 · 秦始皇打螺丝 · 北极熊随行</text>
+    <text x="1735" y="1158" text-anchor="end" font-size="15" letter-spacing="3">THE SKY HAS NO LIMITS</text>
+  </g>
+</svg>
