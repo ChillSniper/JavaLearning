@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# 原始题目与资源保留完整文件字节。
+PROBLEM.md -text
+resources/*.json -text

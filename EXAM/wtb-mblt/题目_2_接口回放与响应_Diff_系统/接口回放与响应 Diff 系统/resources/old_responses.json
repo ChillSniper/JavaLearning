@@ -1,0 +1,135 @@
+[
+  {
+    "id": "req_001",
+    "description": "获取文章详情",
+    "request": { "method": "GET", "path": "/api/articles/1" },
+    "response": {
+      "status": 200,
+      "body": {
+        "code": 0,
+        "message": "success",
+        "data": {
+          "id": 1,
+          "title": "快手创作者成长指南",
+          "category": "video",
+          "like_count": "128",
+          "author_email": "creator@kuaishou.com",
+          "created_at": "2024-01-01T00:00:00Z"
+        },
+        "timestamp": 1704067200000,
+        "traceId": "abc123def456",
+        "request_id": "req-old-001"
+      }
+    }
+  },
+  {
+    "id": "req_002",
+    "description": "获取文章详情 - 文章 ID 2",
+    "request": { "method": "GET", "path": "/api/articles/2" },
+    "response": {
+      "status": 200,
+      "body": {
+        "code": 0,
+        "message": "success",
+        "data": {
+          "id": 2,
+          "title": "如何拍出爆款短视频",
+          "category": "video",
+          "like_count": "356",
+          "author_email": "videocreator@kuaishou.com",
+          "created_at": "2024-01-02T00:00:00Z"
+        },
+        "timestamp": 1704067300000,
+        "traceId": "bbb111ccc222",
+        "request_id": "req-old-002"
+      }
+    }
+  },
+  {
+    "id": "req_003",
+    "description": "获取文章列表",
+    "request": { "method": "GET", "path": "/api/articles" },
+    "response": {
+      "status": 200,
+      "body": {
+        "code": 0,
+        "message": "success",
+        "data": {
+          "items": [
+            { "id": 1, "title": "快手创作者成长指南", "category": "video", "like_count": "128" },
+            { "id": 2, "title": "如何拍出爆款短视频", "category": "video", "like_count": "356" },
+            { "id": 3, "title": "直播带货运营技巧",   "category": "live",  "like_count": "89"  }
+          ],
+          "total": 3
+        },
+        "timestamp": 1704067400000,
+        "traceId": "ccc333ddd444",
+        "request_id": "req-old-003"
+      }
+    }
+  },
+  {
+    "id": "req_004",
+    "description": "创建新文章",
+    "request": { "method": "POST", "path": "/api/articles" },
+    "response": {
+      "status": 200,
+      "body": {
+        "code": 0,
+        "message": "success",
+        "data": { "id": 4 },
+        "timestamp": 1704067500000,
+        "traceId": "ddd555eee666",
+        "request_id": "req-old-004"
+      }
+    }
+  },
+  {
+    "id": "req_005",
+    "description": "获取不存在的文章",
+    "request": { "method": "GET", "path": "/api/articles/999" },
+    "response": {
+      "status": 404,
+      "body": {
+        "code": 40401,
+        "message": "文章不存在",
+        "data": null,
+        "timestamp": 1704067600000,
+        "traceId": "eee777fff888",
+        "request_id": "req-old-005"
+      }
+    }
+  },
+  {
+    "id": "req_006",
+    "description": "更新文章",
+    "request": { "method": "PUT", "path": "/api/articles/1" },
+    "response": {
+      "status": 200,
+      "body": {
+        "code": 0,
+        "message": "success",
+        "data": { "id": 1 },
+        "timestamp": 1704067700000,
+        "traceId": "fff999ggg000",
+        "request_id": "req-old-006"
+      }
+    }
+  },
+  {
+    "id": "req_007",
+    "description": "创建文章 - 缺少必填参数",
+    "request": { "method": "POST", "path": "/api/articles" },
+    "response": {
+      "status": 400,
+      "body": {
+        "code": 40001,
+        "message": "参数错误：title 不能为空",
+        "data": null,
+        "timestamp": 1704067800000,
+        "traceId": "ggg111hhh222",
+        "request_id": "req-old-007"
+      }
+    }
+  }
+]

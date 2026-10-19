@@ -1,0 +1,16 @@
+{
+  "summary": [7, 4, 3, 10],
+  "unchanged": ["req_005", "req_006", "req_007"],
+  "events": [
+    ["req_001", "body", "data.author_email", "FIELD_REMOVED", true, false, "string", null, "creator@kuaishou.com", null],
+    ["req_001", "body", "data.like_count", "TYPE_CHANGED", true, true, "string", "number", "128", 128],
+    ["req_001", "body", "data.updated_at", "FIELD_ADDED", false, true, null, "string", null, "2024-06-01T00:00:00Z"],
+    ["req_002", "body", "data.author_email", "FIELD_REMOVED", true, false, "string", null, "videocreator@kuaishou.com", null],
+    ["req_002", "body", "data.like_count", "TYPE_CHANGED", true, true, "string", "number", "356", 356],
+    ["req_002", "body", "data.updated_at", "FIELD_ADDED", false, true, null, "string", null, "2024-06-02T00:00:00Z"],
+    ["req_003", "body", "data.data", "FIELD_ADDED", false, true, null, "object", null, {"list": [{"id": 1, "title": "快手创作者成长指南", "category": "video", "like_count": 128}, {"id": 2, "title": "如何拍出爆款短视频", "category": "video", "like_count": 356}, {"id": 3, "title": "直播带货运营技巧", "category": "live", "like_count": 89}], "total": 3}],
+    ["req_003", "body", "data.items", "FIELD_REMOVED", true, false, "array", null, [{"id": 1, "title": "快手创作者成长指南", "category": "video", "like_count": "128"}, {"id": 2, "title": "如何拍出爆款短视频", "category": "video", "like_count": "356"}, {"id": 3, "title": "直播带货运营技巧", "category": "live", "like_count": "89"}], null],
+    ["req_003", "body", "data.total", "FIELD_REMOVED", true, false, "number", null, 3, null],
+    ["req_004", "status", "response.status", "STATUS_CHANGED", true, true, "number", "number", 200, 201]
+  ]
+}

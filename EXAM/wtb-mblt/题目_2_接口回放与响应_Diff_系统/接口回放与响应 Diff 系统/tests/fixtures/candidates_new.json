@@ -1,0 +1,5 @@
+[
+  {"id":"sample_1","description":"时间字段样本 1","request":{"method":"GET","path":"/generated"},"response":{"status":200,"body":{"generated_at":"2026-02-01","count":1}}},
+  {"id":"sample_2","description":"时间字段样本 2","request":{"method":"GET","path":"/generated"},"response":{"status":200,"body":{"generated_at":"2026-02-02","count":1}}},
+  {"id":"sample_3","description":"时间字段样本 3","request":{"method":"GET","path":"/generated"},"response":{"status":200,"body":{"generated_at":"2026-02-03","count":1}}}
+]

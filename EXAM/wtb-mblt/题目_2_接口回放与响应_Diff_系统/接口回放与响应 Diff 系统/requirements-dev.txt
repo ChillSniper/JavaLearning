@@ -1,0 +1,14 @@
+-r requirements.txt
+colorama==0.4.6
+coverage==7.16.2
+hypothesis==6.170.2
+iniconfig==2.3.1
+markdown-it-py==4.2.0
+mdurl==0.1.2
+packaging==26.3
+pluggy==1.7.0
+psutil==7.2.2
+Pygments==2.21.0
+pytest==9.1.1
+pytest-cov==7.1.0
+sortedcontainers==2.4.0

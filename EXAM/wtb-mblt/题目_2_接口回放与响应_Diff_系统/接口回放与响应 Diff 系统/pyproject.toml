@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "response-diff"
+version = "1.0.0"
+description = "接口响应快照回放与字段比较工具"
+requires-python = ">=3.11"
+dependencies = ["simplejson>=3.19,<4"]
+
+[project.scripts]
+response-diff = "response_diff.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["response_diff*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = ["performance: 容量与执行时间验证"]
+cache_dir = ".cache/pytest"
+
+[tool.coverage.run]
+branch = true
+source = ["response_diff"]
+data_file = ".cache/coverage"
+
+[tool.coverage.report]
+show_missing = true

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "ignore_fields": ["timestamp", "traceId", "request_id", "created_at"],
+  "arrays": {"default_mode": "ordered", "rules": []},
+  "dynamic_candidates": {"enabled": true, "min_samples": 3},
+  "limits": {
+    "max_file_bytes": 20971520,
+    "max_records": 10000,
+    "max_depth": 100,
+    "max_nodes": 1000000,
+    "max_array_items": 10000,
+    "max_diff_entries": 100000,
+    "max_report_bytes": 52428800
+  }
+}
