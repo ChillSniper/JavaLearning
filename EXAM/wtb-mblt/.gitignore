@@ -1,0 +1,9 @@
+.vibecoding/draft-sync.log
+.vibecoding/auto-upload.log
+.vibecoding/watch.pid
+.vibecoding/last-auto-upload-hashes.json
+.vibecoding/submitted-problems.json
+node_modules/
+dist/
+build/
+.DS_Store

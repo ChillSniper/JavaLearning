@@ -1,0 +1,12 @@
+{
+  "status": "CLOSED",
+  "scheduledStart": 1792411200000,
+  "scheduledEnd": null,
+  "candidateUserName": "陆学诚",
+  "problemList": [],
+  "templateProblem": {
+    "uid": "ffb98e64b0ef432fa639236de8e99807",
+    "problemName": "Web版待办事项管理系统",
+    "deleted": false
+  }
+}
